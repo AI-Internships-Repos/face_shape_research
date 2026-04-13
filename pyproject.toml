@@ -1,0 +1,17 @@
+[project]
+name = "research-face-shape"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mediapipe>=0.10.33",
+    "opencv-python>=4.13.0.92",
+    "retina-face>=0.0.17",
+    "tf-keras>=2.21.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "dataset_preprocessing_and_extract3d",
+]
