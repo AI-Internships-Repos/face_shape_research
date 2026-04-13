@@ -2559,3 +2559,40 @@
 2026-04-13 13:21:05,835 - [INFO] - [MAIN]:  Processing Class: Oval
 2026-04-13 13:21:05,835 - [INFO] - [MAIN]:  Processing Class: Round
 2026-04-13 13:21:05,886 - [INFO] - [MAIN]:  Processing Class: Square
+2026-04-13 14:12:03,368 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-13 14:12:10,542 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-13 14:12:10,542 - [INFO] - [MAIN]:  Processing Class: Oval
+2026-04-13 14:12:10,544 - [INFO] - [MAIN]:  Processing Class: Oblong
+2026-04-13 14:12:10,547 - [INFO] - [MAIN]:  Processing Class: Square
+2026-04-13 14:12:10,549 - [INFO] - [MAIN]:  Processing Class: Round
+2026-04-13 14:12:45,313 - [INFO] - [MAIN]:    Processing Image: round (1).jpg
+2026-04-13 14:12:49,506 - [INFO] - [MAIN]:    Processing Image: square (1).jpg
+2026-04-13 14:12:49,571 - [INFO] - [MAIN]:    Processing Image: oblong (10).jpg
+2026-04-13 14:12:52,862 - [INFO] - [MAIN]:    Processing Image: heart (101).jpg
+2026-04-13 14:12:53,115 - [INFO] - [MAIN]:    Processing Image: oval (106).jpg
+2026-04-13 14:13:08,133 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:13:08,258 - [INFO] - [MAIN]:    Processing Image: round (1000).jpg
+2026-04-13 14:13:17,483 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:13:17,487 - [INFO] - [MAIN]:    Processing Image: square (12).jpg
+2026-04-13 14:13:23,612 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:13:23,618 - [INFO] - [MAIN]:    Processing Image: oblong (106).jpg
+2026-04-13 14:13:25,588 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:13:25,643 - [INFO] - [MAIN]:    Processing Image: heart (102).jpg
+2026-04-13 14:13:27,163 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:13:27,310 - [INFO] - [MAIN]:    Processing Image: oval (109).jpg
+2026-04-13 14:13:42,663 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:13:42,701 - [INFO] - [MAIN]:    Processing Image: round (11).jpg
+2026-04-13 14:14:06,254 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:14:06,275 - [INFO] - [MAIN]:    Processing Image: oblong (107).jpg
+2026-04-13 14:14:06,398 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:14:06,415 - [INFO] - [MAIN]:    Processing Image: square (13).jpg
+2026-04-13 14:14:14,083 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:14:14,129 - [INFO] - [MAIN]:    Processing Image: oval (140).jpg
+2026-04-13 14:14:21,509 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:14:21,544 - [INFO] - [MAIN]:    Processing Image: heart (123).jpg
+2026-04-13 14:14:37,972 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:14:38,014 - [INFO] - [MAIN]:    Processing Image: round (12).jpg
+2026-04-13 14:14:49,644 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:14:49,683 - [INFO] - [MAIN]:    Processing Image: square (146).jpg
+2026-04-13 14:14:59,922 - [INFO] - [MAIN]:    Landmarks detected: 478 points
+2026-04-13 14:15:00,062 - [INFO] - [MAIN]:    Processing Image: oblong (11).jpg
