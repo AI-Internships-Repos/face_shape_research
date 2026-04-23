@@ -31,10 +31,11 @@ DATASET_DIR = PROJECT_ROOT / "dataset" / "face_shape"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 CLASS_CSV_FILENAME = "metrics.csv"
 LOWER_FACE_LABELS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16]
+SHAPE_PREDICTOR_PATH = "./models/shape_predictor_68_face_landmarks.dat"
 
 # Initialize dlib's face detector and shape predictor
 hog_face_detector = dlib.get_frontal_face_detector()
-dlib_facelandmark = dlib.shape_predictor("./models/shape_predictor_68_face_landmarks.dat")
+dlib_facelandmark = dlib.shape_predictor(SHAPE_PREDICTOR_PATH)
 face_parser = FaceParsingExtractor()
 
 
@@ -338,6 +339,7 @@ def parse_arguments():
     parser.add_argument("-o", "--output_dir", type=str, default=str(OUTPUT_DIR), help="Path to the output directory for processed data.")
     parser.add_argument("-c", "--class_csv_filename", type=str, default=CLASS_CSV_FILENAME, help="Filename for the landmarks CSV within each class directory.")
     parser.add_argument("-w", "--max_workers", type=int, default=5, help="Number of worker processes for class-level multiprocessing.")
+    parser.add_argument("-p", "--shape_predictor_path", type=str, default=SHAPE_PREDICTOR_PATH, help="Path to dlib's shape predictor model file.")
     return parser.parse_args()
 
 
