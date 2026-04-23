@@ -31,14 +31,11 @@ DATASET_DIR = PROJECT_ROOT / "dataset" / "face_shape"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 CLASS_CSV_FILENAME = "metrics.csv"
 LOWER_FACE_LABELS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16]
-SHAPE_PREDICTOR_PATH = "./models/shape_predictor_68_face_landmarks.dat"
-
+SHAPE_PREDICTOR_PATH = None
 # Initialize dlib's face detector and shape predictor
 hog_face_detector = dlib.get_frontal_face_detector()
-dlib_facelandmark = dlib.shape_predictor(SHAPE_PREDICTOR_PATH)
+dlib_facelandmark = dlib.shape_predictor(SHAPE_PREDICTOR_PATH) if SHAPE_PREDICTOR_PATH else None
 face_parser = FaceParsingExtractor()
-
-
 # Essential Functions
 def extract_face(image_file):
     faces = RetinaFace.extract_faces(img_path=str(image_file), align=True, expand_face_area=15)
@@ -356,6 +353,10 @@ def main():
     args = parse_arguments()
     dataset_dir = Path(args.dataset_dir).expanduser().resolve()
     output_dir = Path(args.output_dir).expanduser().resolve()
+    dlib_facelandmark_path = args.shape_predictor_path
+    if dlib_facelandmark_path:
+        global dlib_facelandmark
+        dlib_facelandmark = dlib.shape_predictor(dlib_facelandmark_path)
     class_csv_filename = args.class_csv_filename
     max_workers = args.max_workers
 
