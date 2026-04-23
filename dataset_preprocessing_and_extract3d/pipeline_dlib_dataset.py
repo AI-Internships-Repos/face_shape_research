@@ -241,6 +241,7 @@ def process_image(image_file, output_class_dir, csv_writer, dataset_path, class_
     metrics = extract_metrics(probe_face_skin, probe_landmarks, probe_face_angle_points)
     metric_list.extend(metrics.values())
     csv_writer.writerow(metric_list)
+    logger.info(f"[MAIN]:  Processed {image_file} for class {class_name} Successfully")
     
 def process_class(dataset_name, dataset_path, class_name, class_path, output_dir, class_csv_filename):
     logger.info(f"[MAIN]:  Processing Class: {class_name}")
