@@ -2596,3 +2596,93 @@
 2026-04-13 14:14:49,683 - [INFO] - [MAIN]:    Processing Image: square (146).jpg
 2026-04-13 14:14:59,922 - [INFO] - [MAIN]:    Landmarks detected: 478 points
 2026-04-13 14:15:00,062 - [INFO] - [MAIN]:    Processing Image: oblong (11).jpg
+2026-04-22 14:44:17,500 - [INFO] - [MAIN]:Processing Dataset: face_shape
+2026-04-22 14:44:17,502 - [INFO] - [MAIN]:  Processing Class: testing_set
+2026-04-22 14:44:17,504 - [WARNING] - [MAIN]:  No images found for class testing_set in D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set
+2026-04-22 14:44:17,504 - [INFO] - [MAIN]:  Processing Class: training_set
+2026-04-22 14:44:17,505 - [WARNING] - [MAIN]:  No images found for class training_set in D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\training_set
+2026-04-22 14:44:56,769 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-22 14:44:56,770 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-22 14:45:06,028 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (101).jpg for class Heart: too many values to unpack (expected 2)
+2026-04-22 14:45:11,608 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (102).jpg for class Heart: too many values to unpack (expected 2)
+2026-04-22 14:46:51,104 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-22 14:46:51,108 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-22 14:47:06,179 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (101).jpg for class Heart: 'D:\\Thoriq\\Work\\MadeByHumans\\Research Face Shape\\dataset\\face_shape\\testing_set\\Heart\\heart (101).jpg' is not in the subpath of 'D:\\Thoriq\\Work\\MadeByHumans\\Research Face Shape\\output'
+2026-04-22 14:47:15,635 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (102).jpg for class Heart: 'D:\\Thoriq\\Work\\MadeByHumans\\Research Face Shape\\dataset\\face_shape\\testing_set\\Heart\\heart (102).jpg' is not in the subpath of 'D:\\Thoriq\\Work\\MadeByHumans\\Research Face Shape\\output'
+2026-04-22 14:50:41,186 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-22 14:50:41,188 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-22 15:03:39,957 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (362).jpg for class Heart: Tidak menemukan forehead width line yang valid
+2026-04-22 15:16:23,692 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (624).jpg for class Heart: Tidak menemukan forehead width line yang valid
+2026-04-22 15:26:27,440 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (892).jpg for class Heart: Tidak menemukan forehead width line yang valid
+2026-04-22 15:30:12,574 - [INFO] - [MAIN]:  Saved CSV for class Heart: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Heart\metrics.csv
+2026-04-22 15:30:12,638 - [INFO] - [MAIN]:  Processing Class: Oblong
+2026-04-22 15:41:17,367 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 15:41:17,375 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (471).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (471).jpg for class Oblong. Skipping class.
+2026-04-22 15:43:36,269 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 15:43:36,269 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (547).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (547).jpg for class Oblong. Skipping class.
+2026-04-22 15:46:11,589 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 15:46:11,590 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (559).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (559).jpg for class Oblong. Skipping class.
+2026-04-22 15:50:04,643 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-22 15:50:04,653 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-22 15:55:22,884 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-22 15:55:22,887 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-22 15:57:02,682 - [INFO] - [MAIN]:Processing Dataset: testing_set
+2026-04-22 15:57:02,684 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-04-22 16:03:14,202 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (362).jpg for class Heart: Tidak menemukan forehead width line yang valid
+2026-04-22 16:09:57,516 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (624).jpg for class Heart: Tidak menemukan forehead width line yang valid
+2026-04-22 16:19:46,251 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Heart\heart (892).jpg for class Heart: Tidak menemukan forehead width line yang valid
+2026-04-22 16:23:46,711 - [INFO] - [MAIN]:  Saved CSV for class Heart: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Heart\metrics.csv
+2026-04-22 16:23:46,737 - [INFO] - [MAIN]:  Processing Class: Oblong
+2026-04-22 16:36:10,121 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 16:36:10,129 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (471).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (471).jpg for class Oblong. Skipping class.
+2026-04-22 16:38:16,671 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 16:38:16,672 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (547).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (547).jpg for class Oblong. Skipping class.
+2026-04-22 16:40:08,105 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 16:40:08,106 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (559).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (559).jpg for class Oblong. Skipping class.
+2026-04-22 16:47:48,783 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 16:47:48,791 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (703).jpg for class Oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (703).jpg for class Oblong. Skipping class.
+2026-04-22 16:48:24,166 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (706).jpg for class Oblong: Tidak menemukan forehead width line yang valid
+2026-04-22 16:56:34,646 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oblong\oblong (909).jpg for class Oblong: Tidak menemukan forehead width line yang valid
+2026-04-22 17:00:16,915 - [INFO] - [MAIN]:  Saved CSV for class Oblong: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Oblong\metrics.csv
+2026-04-22 17:00:16,927 - [INFO] - [MAIN]:  Processing Class: Oval
+2026-04-22 17:03:05,788 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (246).jpg for class Oval: Tidak menemukan forehead width line yang valid
+2026-04-22 17:07:50,538 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (306).jpg for class Oval: Tidak menemukan forehead width line yang valid
+2026-04-22 17:15:55,615 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (484).jpg
+2026-04-22 17:15:55,618 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (484).jpg for class Oval: [MAIN]:  No face detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (484).jpg for class Oval. Skipping class.
+2026-04-22 17:23:57,567 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (651).jpg
+2026-04-22 17:23:57,575 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (651).jpg for class Oval: [MAIN]:  No face detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (651).jpg for class Oval. Skipping class.
+2026-04-22 17:26:08,797 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (673).jpg for class Oval: Tidak menemukan forehead width line yang valid
+2026-04-22 17:28:27,950 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 17:28:27,951 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (687).jpg for class Oval: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Oval\oval (687).jpg for class Oval. Skipping class.
+2026-04-22 17:34:41,424 - [INFO] - [MAIN]:  Saved CSV for class Oval: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Oval\metrics.csv
+2026-04-22 17:34:41,447 - [INFO] - [MAIN]:  Processing Class: Round
+2026-04-22 17:35:46,288 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (135).jpg for class Round: Tidak menemukan forehead width line yang valid
+2026-04-22 17:38:34,937 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (18).jpg for class Round: Tidak menemukan forehead width line yang valid
+2026-04-22 17:41:44,657 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 17:41:44,657 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (269).jpg for class Round: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (269).jpg for class Round. Skipping class.
+2026-04-22 17:41:55,099 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (270).jpg for class Round: Tidak menemukan forehead width line yang valid
+2026-04-22 17:48:09,559 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (426).jpg for class Round: Tidak menemukan forehead width line yang valid
+2026-04-22 17:53:23,431 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 17:53:23,432 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (520).jpg for class Round: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (520).jpg for class Round. Skipping class.
+2026-04-22 17:53:55,151 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 17:53:55,151 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (563).jpg for class Round: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (563).jpg for class Round. Skipping class.
+2026-04-22 17:54:54,954 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 17:54:54,954 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (598).jpg for class Round: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (598).jpg for class Round. Skipping class.
+2026-04-22 17:56:42,672 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (608).jpg for class Round: Tidak menemukan forehead width line yang valid
+2026-04-22 17:57:20,668 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 17:57:20,669 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (610).jpg for class Round: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (610).jpg for class Round. Skipping class.
+2026-04-22 18:07:14,044 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (951).jpg for class Round: Tidak menemukan forehead width line yang valid
+2026-04-22 18:10:29,646 - [WARNING] - [DLIB]: No face detected in the image.
+2026-04-22 18:10:29,650 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (999).jpg for class Round: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Round\round (999).jpg for class Round. Skipping class.
+2026-04-22 18:10:29,652 - [INFO] - [MAIN]:  Saved CSV for class Round: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Round\metrics.csv
+2026-04-22 18:10:29,658 - [INFO] - [MAIN]:  Processing Class: Square
+2026-04-22 18:14:45,413 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (241).jpg for class Square: Tidak menemukan forehead width line yang valid
+2026-04-22 18:16:11,972 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (305).jpg
+2026-04-22 18:16:11,973 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (305).jpg for class Square: [MAIN]:  No face detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (305).jpg for class Square. Skipping class.
+2026-04-22 18:25:09,080 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (507).jpg
+2026-04-22 18:25:09,089 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (507).jpg for class Square: [MAIN]:  No face detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (507).jpg for class Square. Skipping class.
+2026-04-22 18:35:13,837 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (680).jpg for class Square: Tidak menemukan forehead width line yang valid
+2026-04-22 18:42:28,118 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\dataset\face_shape\testing_set\Square\square (922).jpg for class Square: Tidak menemukan forehead width line yang valid
+2026-04-22 18:43:32,993 - [INFO] - [MAIN]:  Saved CSV for class Square: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Square\metrics.csv
+2026-04-22 18:43:33,014 - [INFO] - [MAIN]:Processing Dataset: training_set
+2026-04-22 18:43:33,025 - [INFO] - [MAIN]:  Processing Class: Heart
