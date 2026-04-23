@@ -2,13 +2,13 @@ import os
 
 from .face_parsing.face_parsing import FaceParsingExtractor
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-import tensorflow as tf
 from retinaface import RetinaFace
 import cv2
 import dlib
 import numpy as np
-from glob import glob
 import csv
 import logging
 import argparse
@@ -31,55 +31,21 @@ DATASET_DIR = PROJECT_ROOT / "dataset" / "face_shape"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 CLASS_CSV_FILENAME = "metrics.csv"
 LOWER_FACE_LABELS = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16]
-SHAPE_PREDICTOR_PATH = None
-# Initialize dlib's face detector and shape predictor
-hog_face_detector = dlib.get_frontal_face_detector()
-dlib_facelandmark = dlib.shape_predictor(SHAPE_PREDICTOR_PATH) if SHAPE_PREDICTOR_PATH else None
-face_parser = FaceParsingExtractor()
-# Essential Functions
-def extract_face(image_file):
-    faces = RetinaFace.extract_faces(img_path=str(image_file), align=True, expand_face_area=15)
-    if faces:
-        return cv2.cvtColor(faces[0], cv2.COLOR_BGR2RGB)
-    else:
-        logger.warning(f"[EXTRACT FACE]:No face detected in {image_file}")
-        return None
+SHAPE_PREDICTOR_PATH = PROJECT_ROOT / "models" / "shape_predictor_68_face_landmarks.dat"
 
 
-def process_dlib_landmarks(image_cv2):
-    """Process the image using dlib to extract facial landmarks and compute metrics.
-    Args:
-        image_cv2 (numpy.ndarray): The input image in OpenCV format (BGR).
-    Returns:
-        np.array: An array of landmark coordinates for the detected face, or None if no face is detected.
-    """
-    gray = cv2.cvtColor(image_cv2, cv2.COLOR_BGR2GRAY)
-    faces = hog_face_detector(gray)
-
-    if len(faces) == 0:
-        logger.warning("[DLIB]: No face detected in the image.")
-        return None
-
-    # Process only the first detected face
-    face = faces[0]
-    landmarks = dlib_facelandmark(gray, face)
-
-    if landmarks.num_parts != 68:
-        logger.warning(f"[DLIB]: Expected 68 landmarks, but detected {landmarks.num_parts}.")
-        return None
-
-    # Extract the coordinates of the landmarks
-    landmark_coords = np.array([(landmarks.part(i).x, landmarks.part(i).y) for i in range(68)])
-
-    return landmark_coords
+def _resolve_shape_predictor_path(shape_predictor_path):
+    path = Path(shape_predictor_path).expanduser()
+    if not path.is_absolute():
+        path = (PROJECT_ROOT / path).resolve()
+    return path
 
 
-def face_skin_parsing(aligned_face):
-    parsing_mask = face_parser.extract(aligned_face)
-    face_masked = face_parser.apply_mask(parsing_mask, aligned_face)
-    return parsing_mask, face_masked
-
-
+def _initialize_dlib_predictor(shape_predictor_path):
+    predictor_path = _resolve_shape_predictor_path(shape_predictor_path)
+    if not predictor_path.exists():
+        raise FileNotFoundError(f"shape predictor file not found: {predictor_path}")
+    return predictor_path
 ## Metrics Utils Function
 def compute_relative_forehead_width(angle_points, parsing_mask, p27, p90, angle_candidates=None, normalize_by=None):
     if angle_candidates is None:
@@ -219,107 +185,144 @@ def extract_metrics(face_masked, landmarks, angle_points):
     return metrics
 
 
-# Main Processing Functions
-def process_image(image_file, output_class_dir, csv_writer, dataset_path, class_name=None):
-    face_skin_dir = output_class_dir / "face_skin"
-    face_skin_dir.mkdir(parents=True, exist_ok=True)
-    face_masked_dir = output_class_dir / "face_masked"
-    face_masked_dir.mkdir(parents=True, exist_ok=True)
-    probe_face = extract_face(image_file)
-    if probe_face is None:
-        raise ValueError(f"[MAIN]:  No face detected in probe image {image_file} for class {class_name}. Skipping class.")
+class DatasetPreprocessor:
+    def __init__(self, dataset_dir, output_dir, class_csv_filename, shape_predictor_path):
+        self.dataset_dir = Path(dataset_dir)
+        self.output_dir = Path(output_dir)
+        self.class_csv_filename = class_csv_filename
+        self.shape_predictor_path = _initialize_dlib_predictor(shape_predictor_path)
+        self.hog_face_detector = dlib.get_frontal_face_detector()
+        self.dlib_facelandmark = dlib.shape_predictor(str(self.shape_predictor_path))
+        self.face_parser = FaceParsingExtractor()
 
-    probe_landmarks = process_dlib_landmarks(probe_face)
-    if probe_landmarks is None:
-        raise ValueError(f"[MAIN]:  No landmarks detected in probe image {image_file} for class {class_name}. Skipping class.")
-    probe_face_masked, probe_face_skin = face_skin_parsing(probe_face)
-    if probe_face_masked is None or probe_face_skin is None:
-        raise ValueError(f"[MAIN]:  Face skin parsing failed for probe image {image_file} for class {class_name}. Skipping class.")
+    def _extract_face(self, image_file):
+        faces = RetinaFace.extract_faces(img_path=str(image_file), align=True, expand_face_area=15)
+        if faces:
+            return cv2.cvtColor(faces[0], cv2.COLOR_BGR2RGB)
 
-    cv2.imwrite(str(face_skin_dir / image_file.name), probe_face_skin)
-    cv2.imwrite(str(face_masked_dir / image_file.name), probe_face_masked)
+        logger.warning(f"[EXTRACT FACE]:No face detected in {image_file}")
+        return None
 
-    probe_face_angle_points = forehead_points_dense(
-        probe_face_masked,
-        probe_landmarks,
-        angle_step=10,
-    )
-    try:
-        relative_path = image_file.relative_to(dataset_path).as_posix()
-    except ValueError:
-        logger.warning(f"[MAIN]:  Failed to resolve relative path for {image_file} against {dataset_path}. Falling back to class/name path.")
-        fallback_class_name = class_name or "unknown"
-        relative_path = (Path(fallback_class_name) / image_file.name).as_posix()
+    def _process_dlib_landmarks(self, image_cv2):
+        gray = cv2.cvtColor(image_cv2, cv2.COLOR_BGR2GRAY)
+        faces = self.hog_face_detector(gray)
 
-    metric_list = [class_name, image_file.name, relative_path]
-    metrics = extract_metrics(probe_face_skin, probe_landmarks, probe_face_angle_points)
-    metric_list.extend(metrics.values())
-    csv_writer.writerow(metric_list)
-    logger.info(f"[MAIN]:  Processed {image_file} for class {class_name} Successfully")
+        if len(faces) == 0:
+            logger.warning("[DLIB]: No face detected in the image.")
+            return None
 
+        landmarks = self.dlib_facelandmark(gray, faces[0])
+        if landmarks.num_parts != 68:
+            logger.warning(f"[DLIB]: Expected 68 landmarks, but detected {landmarks.num_parts}.")
+            return None
 
-def process_class(dataset_name, dataset_path, class_name, class_path, output_dir, class_csv_filename):
-    logger.info(f"[MAIN]:  Processing Class: {class_name}")
-    output_class_dir = output_dir / dataset_name / class_name
-    output_class_dir.mkdir(parents=True, exist_ok=True)
+        return np.array([(landmarks.part(i).x, landmarks.part(i).y) for i in range(68)])
 
-    image_files = [
-        file_path for file_path in class_path.glob("*")
-        if file_path.suffix.lower() in {".jpg", ".jpeg", ".png"}
-    ]
-    if not image_files:
-        logger.warning(f"[MAIN]:  No images found for class {class_name} in {class_path}")
-        return
+    def _face_skin_parsing(self, aligned_face):
+        parsing_mask = self.face_parser.extract(aligned_face)
+        face_masked = self.face_parser.apply_mask(parsing_mask, aligned_face)
+        return parsing_mask, face_masked
 
-    csv_path = output_class_dir / class_csv_filename
+    def _process_image(self, image_file, output_class_dir, csv_writer, dataset_path, class_name=None):
+        logger.info(f"[MAIN]:  Start processing image {image_file.name} for class {class_name}")
+        face_skin_dir = output_class_dir / "face_skin"
+        face_skin_dir.mkdir(parents=True, exist_ok=True)
+        face_masked_dir = output_class_dir / "face_masked"
+        face_masked_dir.mkdir(parents=True, exist_ok=True)
 
-    with csv_path.open("w", newline="", encoding="utf-8") as csv_file:
-        csv_writer = csv.writer(csv_file)
-        csv_writer.writerow([
-            "class_name",
-            "image_file",
-            "relative_path",
-            "face_height",
-            "face_width",
-            "forehead_height",
-            "jaw_width",
-            "chin_width",
-            "chin_angle_degree",
-            "forehead_width",
-            "skeleton_angle_left",
-            "skeleton_angle_right",
-            "jidat_angle_downward",
-        ])
+        probe_face = self._extract_face(image_file)
+        if probe_face is None:
+            raise ValueError(f"[MAIN]:  No face detected in probe image {image_file} for class {class_name}. Skipping class.")
 
-        for image_file in image_files:
-            try:
-                process_image(
-                    image_file=image_file,
-                    output_class_dir=output_class_dir,
-                    csv_writer=csv_writer,
-                    dataset_path=dataset_path,
-                    class_name=class_name,
-                )
+        probe_landmarks = self._process_dlib_landmarks(probe_face)
+        if probe_landmarks is None:
+            raise ValueError(f"[MAIN]:  No landmarks detected in probe image {image_file} for class {class_name}. Skipping class.")
 
-            except Exception as e:
-                logger.error(f"[MAIN]:  Error processing probe image {image_file} for class {class_name}: {e}")
-                continue
+        probe_face_masked, probe_face_skin = self._face_skin_parsing(probe_face)
+        if probe_face_masked is None or probe_face_skin is None:
+            raise ValueError(f"[MAIN]:  Face skin parsing failed for probe image {image_file} for class {class_name}. Skipping class.")
 
-    logger.info(f"[MAIN]:  Saved CSV for class {class_name}: {csv_path}")
+        cv2.imwrite(str(face_skin_dir / image_file.name), probe_face_skin)
+        cv2.imwrite(str(face_masked_dir / image_file.name), probe_face_masked)
 
+        probe_face_angle_points = forehead_points_dense(
+            probe_face_masked,
+            probe_landmarks,
+            angle_step=10,
+        )
+        try:
+            relative_path = image_file.relative_to(dataset_path).as_posix()
+        except ValueError:
+            logger.warning(f"[MAIN]:  Failed to resolve relative path for {image_file} against {dataset_path}. Falling back to class/name path.")
+            fallback_class_name = class_name or "unknown"
+            relative_path = (Path(fallback_class_name) / image_file.name).as_posix()
 
-def process_dataset(dataset_name, dataset_path, output_dir, class_csv_filename):
-    logger.info(f"[MAIN]:Processing Dataset: {dataset_name}")
-    (output_dir / dataset_name).mkdir(parents=True, exist_ok=True)
+        metric_list = [class_name, image_file.name, relative_path]
+        metrics = extract_metrics(probe_face_skin, probe_landmarks, probe_face_angle_points)
+        metric_list.extend(metrics.values())
+        csv_writer.writerow(metric_list)
+        logger.info(f"[MAIN]:  Processed {image_file} for class {class_name} Successfully")
 
-    class_names = os.listdir(dataset_path)
-    class_paths = {
-        cls: dataset_path / cls
-        for cls in class_names
-        if (dataset_path / cls).is_dir()
-    }
-    for cls, cls_path in class_paths.items():
-        process_class(dataset_name, dataset_path, cls, cls_path, output_dir, class_csv_filename)
+    def _process_class(self, dataset_name, dataset_path, class_name, class_path):
+        logger.info(f"[MAIN]:  Processing Class: {class_name}")
+        output_class_dir = self.output_dir / dataset_name / class_name
+        output_class_dir.mkdir(parents=True, exist_ok=True)
+
+        image_files = [
+            file_path for file_path in class_path.glob("*")
+            if file_path.suffix.lower() in {".jpg", ".jpeg", ".png"}
+        ]
+        if not image_files:
+            logger.warning(f"[MAIN]:  No images found for class {class_name} in {class_path}")
+            return
+
+        csv_path = output_class_dir / self.class_csv_filename
+
+        with csv_path.open("w", newline="", encoding="utf-8") as csv_file:
+            csv_writer = csv.writer(csv_file)
+            csv_writer.writerow([
+                "class_name",
+                "image_file",
+                "relative_path",
+                "face_height",
+                "face_width",
+                "forehead_height",
+                "jaw_width",
+                "chin_width",
+                "chin_angle_degree",
+                "forehead_width",
+                "skeleton_angle_left",
+                "skeleton_angle_right",
+                "jidat_angle_downward",
+            ])
+
+            for image_file in image_files:
+                try:
+                    self._process_image(
+                        image_file=image_file,
+                        output_class_dir=output_class_dir,
+                        csv_writer=csv_writer,
+                        dataset_path=dataset_path,
+                        class_name=class_name,
+                    )
+                except Exception as e:
+                    logger.error(f"[MAIN]:  Error processing probe image {image_file} for class {class_name}: {e}")
+                    continue
+
+        logger.info(f"[MAIN]:  Saved CSV for class {class_name}: {csv_path}")
+
+    def process_dataset(self, dataset_name, dataset_path):
+        logger.info(f"[MAIN]:Processing Dataset: {dataset_name}")
+        (self.output_dir / dataset_name).mkdir(parents=True, exist_ok=True)
+
+        class_names = os.listdir(dataset_path)
+        class_paths = {
+            cls: dataset_path / cls
+            for cls in class_names
+            if (dataset_path / cls).is_dir()
+        }
+        for cls, cls_path in class_paths.items():
+            self._process_class(dataset_name, dataset_path, cls, cls_path)
 
 
 def get_dataset_paths(dataset_dir):
@@ -337,17 +340,16 @@ def parse_arguments():
     parser.add_argument("-o", "--output_dir", type=str, default=str(OUTPUT_DIR), help="Path to the output directory for processed data.")
     parser.add_argument("-c", "--class_csv_filename", type=str, default=CLASS_CSV_FILENAME, help="Filename for the landmarks CSV within each class directory.")
     parser.add_argument("-w", "--max_workers", type=int, default=5, help="Number of worker processes for class-level multiprocessing.")
-    parser.add_argument("-p", "--shape_predictor_path", type=str, default=SHAPE_PREDICTOR_PATH, help="Path to dlib's shape predictor model file.")
+    parser.add_argument("-p", "--shape_predictor_path", type=str, default=str(SHAPE_PREDICTOR_PATH), help="Path to dlib's shape predictor model file.")
     return parser.parse_args()
 
 
 def _process_class_wrapper(args):
-    dataset_name, class_name, dataset_dir, output_dir, class_csv_filename = args
-    dataset_dir = Path(dataset_dir)
-    output_dir = Path(output_dir)
-    dataset_path = dataset_dir / dataset_name
+    dataset_name, class_name, dataset_dir, output_dir, class_csv_filename, shape_predictor_path = args
+    preprocessor = DatasetPreprocessor(dataset_dir, output_dir, class_csv_filename, shape_predictor_path)
+    dataset_path = Path(dataset_dir) / dataset_name
     class_path = dataset_path / class_name
-    process_class(dataset_name, dataset_path, class_name, class_path, output_dir, class_csv_filename)
+    preprocessor._process_class(dataset_name, dataset_path, class_name, class_path)
 
 
 def main():
@@ -355,9 +357,8 @@ def main():
     dataset_dir = Path(args.dataset_dir).expanduser().resolve()
     output_dir = Path(args.output_dir).expanduser().resolve()
     dlib_facelandmark_path = args.shape_predictor_path
-    if dlib_facelandmark_path:
-        global dlib_facelandmark
-        dlib_facelandmark = dlib.shape_predictor(dlib_facelandmark_path)
+    predictor_path = _initialize_dlib_predictor(dlib_facelandmark_path)
+    logger.info(f"[MAIN]:Using shape predictor: {predictor_path}")
     class_csv_filename = args.class_csv_filename
     max_workers = args.max_workers
 
@@ -376,7 +377,7 @@ def main():
             process_map(
                 _process_class_wrapper,
                 [
-                    (dataset_name, class_name, dataset_dir, output_dir, class_csv_filename)
+                    (dataset_name, class_name, dataset_dir, output_dir, class_csv_filename, str(predictor_path))
                     for class_name in class_dirs
                 ],
                 max_workers=max_workers,
