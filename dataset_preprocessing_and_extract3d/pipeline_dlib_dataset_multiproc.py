@@ -196,7 +196,7 @@ class DatasetPreprocessor:
         self.face_parser = FaceParsingExtractor()
 
     def _extract_face(self, image_file):
-        faces = RetinaFace.extract_faces(img_path=str(image_file), align=True, expand_face_area=15)
+        faces = RetinaFace.extract_faces(img_path=str(image_file), align=True, expand_face_area=45)
         if faces:
             return cv2.cvtColor(faces[0], cv2.COLOR_BGR2RGB)
 
@@ -232,7 +232,7 @@ class DatasetPreprocessor:
 
         probe_face = self._extract_face(image_file)
         if probe_face is None:
-            raise ValueError(f"[MAIN]:  No face detected in probe image {image_file} for class {class_name}. Skipping class.")
+            logger.warning(f"[MAIN]: fallback to original image for dlib processing for {image_file} in class {class_name}")
 
         probe_landmarks = self._process_dlib_landmarks(probe_face)
         if probe_landmarks is None:

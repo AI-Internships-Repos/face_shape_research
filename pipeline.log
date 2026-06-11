@@ -2686,3 +2686,869 @@
 2026-04-22 18:43:32,993 - [INFO] - [MAIN]:  Saved CSV for class Square: D:\Thoriq\Work\MadeByHumans\Research Face Shape\output\testing_set\Square\metrics.csv
 2026-04-22 18:43:33,014 - [INFO] - [MAIN]:Processing Dataset: training_set
 2026-04-22 18:43:33,025 - [INFO] - [MAIN]:  Processing Class: Heart
+2026-06-11 15:58:49,998 - [INFO] - [MAIN]:Using shape predictor: D:\Thoriq\Work\MadeByHumans\Research Face Shape\models\shape_predictor_68_face_landmarks.dat
+2026-06-11 15:58:49,999 - [ERROR] - [MAIN]:  Error processing dataset: [WinError 3] The system cannot find the path specified: 'D:\\Thoriq\\Work\\MadeByHumans\\all_dataset\\face-shape-new'
+2026-06-11 15:59:36,828 - [INFO] - [MAIN]:Using shape predictor: D:\Thoriq\Work\MadeByHumans\Research Face Shape\models\shape_predictor_68_face_landmarks.dat
+2026-06-11 15:59:36,828 - [ERROR] - [MAIN]:  Error processing dataset: [WinError 3] The system cannot find the path specified: 'D:\\Thoriq\\Work\\MadeByHumans\\all_dataset\\face-shape-new\\training_set'
+2026-06-11 16:00:54,486 - [INFO] - [MAIN]:Using shape predictor: D:\Thoriq\Work\MadeByHumans\Research Face Shape\models\shape_predictor_68_face_landmarks.dat
+2026-06-11 16:00:54,487 - [INFO] - [MAIN]:Processing Dataset: test_set
+2026-06-11 16:01:07,913 - [INFO] - [MAIN]:  Processing Class: oval
+2026-06-11 16:01:07,913 - [INFO] - [MAIN]:  Processing Class: oblong
+2026-06-11 16:01:07,913 - [INFO] - [MAIN]:  Processing Class: heart
+2026-06-11 16:01:07,916 - [INFO] - [MAIN]:  Processing Class: round
+2026-06-11 16:01:07,930 - [INFO] - [MAIN]:  Start processing image 20171114093918190825.jpg for class heart
+2026-06-11 16:01:07,932 - [INFO] - [MAIN]:  Start processing image 00502143_20180527.jpg for class oval
+2026-06-11 16:01:07,933 - [INFO] - [MAIN]:  Start processing image 01.30661168.1.jpg for class oblong
+2026-06-11 16:01:07,933 - [INFO] - [MAIN]:  Start processing image 2016031400060_0.jpg for class round
+2026-06-11 16:01:36,841 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\00502143_20180527.jpg for class oval Successfully
+lly
+2026-06-11 16:01:36,840 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\2016031400060_0.jpg for class round Successfully
+2026-06-11 16:01:36,844 - [INFO] - [MAIN]:  Start processing image 104203_127191_844.jpg for class oval
+2026-06-11 16:01:36,844 - [INFO] - [MAIN]:  Start processing image 20160806190839947kdat.jpg for class round
+2026-06-11 16:01:36,844 - [INFO] - [MAIN]:  Start processing image 201803221196344281_1.jpg for class heart
+2026-06-11 16:01:36,854 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\01.30661168.1.jpg for class oblong Successfully
+2026-06-11 16:01:36,855 - [INFO] - [MAIN]:  Start processing image 03.30681207.1.jpg for class oblong
+2026-06-11 16:01:53,142 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\201803221196344281_1.jpg for class heart Successfully
+2026-06-11 16:01:53,146 - [INFO] - [MAIN]:  Start processing image 202001301345427874834_20200130141114_01.jpg for class heart
+2026-06-11 16:01:53,216 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\104203_127191_844.jpg for class oval Successfully
+2026-06-11 16:01:53,216 - [INFO] - [MAIN]:  Start processing image 119342471.9.jpg for class oval
+2026-06-11 16:01:53,229 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\20160806190839947kdat.jpg for class round Successfully
+2026-06-11 16:01:53,230 - [INFO] - [MAIN]:  Start processing image 201608221495266516_1.jpg for class round
+2026-06-11 16:01:53,259 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\03.30681207.1.jpg for class oblong Successfully
+2026-06-11 16:01:53,259 - [INFO] - [MAIN]:  Start processing image 1-_EC_9D_B4_EC_9E_AC_EC_9A_B1.jpg for class oblong
+2026-06-11 16:02:09,347 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\202001301345427874834_20200130141114_01.jpg for class heart Successfully
+2026-06-11 16:02:09,350 - [INFO] - [MAIN]:  Start processing image 202007020944329082_d.jpg for class heart
+2026-06-11 16:02:09,373 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\119342471.9.jpg for class oval Successfully
+2026-06-11 16:02:09,373 - [INFO] - [MAIN]:  Start processing image 19062548_YJW_0241.jpg for class oval
+2026-06-11 16:02:09,445 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\201608221495266516_1.jpg for class round Successfully
+2026-06-11 16:02:09,445 - [INFO] - [MAIN]:  Start processing image 201611151902470510_2.jpg for class round
+2026-06-11 16:02:09,728 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1-_EC_9D_B4_EC_9E_AC_EC_9A_B1.jpg for class oblong: Tidak menemukan forehead width line yang valid
+2026-06-11 16:02:09,871 - [INFO] - [MAIN]:  Start processing image 105748_144393_1695228325.jpg for class oblong
+2026-06-11 16:02:38,198 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\202007020944329082_d.jpg for class heart Successfully
+2026-06-11 16:02:38,203 - [INFO] - [MAIN]:  Start processing image 2023041717264188225_1.jpg for class heart
+2026-06-11 16:02:38,268 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\201611151902470510_2.jpg for class round Successfully
+2026-06-11 16:02:38,274 - [INFO] - [MAIN]:  Start processing image 2016111801001876500127511.jpg for class round
+2026-06-11 16:02:38,278 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\19062548_YJW_0241.jpg for class oval Successfully
+2026-06-11 16:02:38,279 - [INFO] - [MAIN]:  Start processing image 1S2806ZW4X_1.jpg for class oval
+2026-06-11 16:02:38,408 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\105748_144393_1695228325.jpg for class oblong Successfully
+2026-06-11 16:02:38,419 - [INFO] - [MAIN]:  Start processing image 119223226.2.jpg for class oblong
+2026-06-11 16:03:13,751 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\2016111801001876500127511.jpg for class round Successfully
+2026-06-11 16:03:13,751 - [INFO] - [MAIN]:  Start processing image 20170117515493.jpg for class round
+2026-06-11 16:03:13,768 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\2023041717264188225_1.jpg for class heart Successfully
+2026-06-11 16:03:13,769 - [INFO] - [MAIN]:  Start processing image 20230806141329407movj.jpg for class heart
+2026-06-11 16:03:13,811 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\1S2806ZW4X_1.jpg for class oval Successfully
+2026-06-11 16:03:13,812 - [INFO] - [MAIN]:  Start processing image 1VS9ZTPQ2J_1.jpg for class oval
+2026-06-11 16:03:13,822 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\119223226.2.jpg for class oblong Successfully
+2026-06-11 16:03:13,822 - [INFO] - [MAIN]:  Start processing image 119238051.2.jpg for class oblong
+2026-06-11 16:03:46,447 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\20170117515493.jpg for class round Successfully
+2026-06-11 16:03:46,448 - [INFO] - [MAIN]:  Start processing image 20180215103554_195841848.jpg for class round
+2026-06-11 16:03:46,555 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\20230806141329407movj.jpg for class heart Successfully
+2026-06-11 16:03:46,556 - [INFO] - [MAIN]:  Start processing image 202326001677983556.jpg for class heart
+2026-06-11 16:03:46,567 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\1VS9ZTPQ2J_1.jpg for class oval Successfully
+2026-06-11 16:03:46,568 - [INFO] - [MAIN]:  Start processing image 20093524_YJW_1913.jpg for class oval
+2026-06-11 16:03:46,798 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\119238051.2.jpg for class oblong Successfully
+2026-06-11 16:03:46,814 - [INFO] - [MAIN]:  Start processing image 121424_111250_5557.jpg for class oblong
+2026-06-11 16:04:18,388 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\121424_111250_5557.jpg
+2026-06-11 16:04:18,389 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\121424_111250_5557.jpg in class oblong
+2026-06-11 16:04:18,401 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\121424_111250_5557.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:04:18,406 - [INFO] - [MAIN]:  Start processing image 13244_19674_386.png for class oblong
+2026-06-11 16:04:19,979 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\20180215103554_195841848.jpg for class round Successfully
+2026-06-11 16:04:19,987 - [INFO] - [MAIN]:  Start processing image 20180312094115620469.jpg for class round
+2026-06-11 16:04:20,791 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\202326001677983556.jpg for class heart Successfully
+2026-06-11 16:04:20,815 - [INFO] - [MAIN]:  Start processing image 231.jpg for class heart
+2026-06-11 16:04:20,917 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20093524_YJW_1913.jpg for class oval Successfully
+2026-06-11 16:04:20,932 - [INFO] - [MAIN]:  Start processing image 20161028010017443_1477614419_1.jpg for class oval
+2026-06-11 16:04:51,019 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20161028010017443_1477614419_1.jpg
+2026-06-11 16:04:51,020 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20161028010017443_1477614419_1.jpg in class oval
+2026-06-11 16:04:51,021 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20161028010017443_1477614419_1.jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:04:51,026 - [INFO] - [MAIN]:  Start processing image 20161028121008331qqgc.jpg for class oval
+2026-06-11 16:04:51,176 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\13244_19674_386.png for class oblong Successfully
+2026-06-11 16:04:51,177 - [INFO] - [MAIN]:  Start processing image 1662431737675488.jpg for class oblong
+2026-06-11 16:04:52,345 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\20180312094115620469.jpg for class round Successfully
+2026-06-11 16:04:52,366 - [INFO] - [MAIN]:  Start processing image 202002211354393790_1.jpg for class round
+2026-06-11 16:04:54,455 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\231.jpg for class heart Successfully
+2026-06-11 16:04:54,480 - [INFO] - [MAIN]:  Start processing image 30000299981_500.jpg for class heart
+2026-06-11 16:05:19,228 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20161028121008331qqgc.jpg
+2026-06-11 16:05:19,244 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20161028121008331qqgc.jpg in class oval
+2026-06-11 16:05:19,278 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20161028121008331qqgc.jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:05:19,302 - [INFO] - [MAIN]:  Start processing image 201612312053259539_1.jpg for class oval
+2026-06-11 16:05:24,935 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1662431737675488.jpg for class oblong Successfully
+2026-06-11 16:05:24,946 - [INFO] - [MAIN]:  Start processing image 1687492760991_473271b73ff0411db829e5eff73ff99e.jpg for class oblong
+2026-06-11 16:05:25,309 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\202002211354393790_1.jpg for class round Successfully
+2026-06-11 16:05:25,329 - [INFO] - [MAIN]:  Start processing image 2021111708405965901_l.jpg for class round
+2026-06-11 16:05:28,191 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\30000299981_500.jpg for class heart Successfully
+2026-06-11 16:05:28,220 - [INFO] - [MAIN]:  Start processing image 350768_261576_3317.jpg for class heart
+2026-06-11 16:05:51,638 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\201612312053259539_1.jpg for class oval Successfully
+2026-06-11 16:05:51,665 - [INFO] - [MAIN]:  Start processing image 201706151122262912_1.jpg for class oval
+2026-06-11 16:05:56,562 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1687492760991_473271b73ff0411db829e5eff73ff99e.jpg for class oblong Successfully
+2026-06-11 16:05:56,563 - [INFO] - [MAIN]:  Start processing image 1737672_19184_1510.jpg for class oblong
+2026-06-11 16:05:56,818 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\2021111708405965901_l.jpg for class round Successfully
+2026-06-11 16:05:56,826 - [INFO] - [MAIN]:  Start processing image 20220809175618309sagb.jpg for class round
+2026-06-11 16:05:59,971 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\350768_261576_3317.jpg for class heart Successfully
+2026-06-11 16:06:00,010 - [INFO] - [MAIN]:  Start processing image 35391ml2xuey4bc46kf9.jpg for class heart
+2026-06-11 16:06:23,499 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\201706151122262912_1.jpg for class oval Successfully
+2026-06-11 16:06:23,529 - [INFO] - [MAIN]:  Start processing image 201802121986043342_1.jpg for class oval
+2026-06-11 16:06:28,577 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1737672_19184_1510.jpg for class oblong Successfully
+2026-06-11 16:06:28,585 - [INFO] - [MAIN]:  Start processing image 191df86e-f27f-48d4-bce9-0f800d3d0b86.jpg for class oblong
+2026-06-11 16:06:28,642 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\20220809175618309sagb.jpg for class round Successfully
+2026-06-11 16:06:28,653 - [INFO] - [MAIN]:  Start processing image 2024022016185590641_1.jpg for class round
+2026-06-11 16:06:31,859 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\35391ml2xuey4bc46kf9.jpg for class heart Successfully
+2026-06-11 16:06:31,887 - [INFO] - [MAIN]:  Start processing image 99364763.5.jpg for class heart
+2026-06-11 16:06:54,286 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\201802121986043342_1.jpg for class oval Successfully
+2026-06-11 16:06:54,320 - [INFO] - [MAIN]:  Start processing image 20180725_1532503919_03202200_1.jpg for class oval
+2026-06-11 16:07:00,143 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\191df86e-f27f-48d4-bce9-0f800d3d0b86.jpg for class oblong Successfully
+2026-06-11 16:07:00,156 - [INFO] - [MAIN]:  Start processing image 1a77f8b8-3ee2-4e08-aa63-1c0701eaab1a.jpg for class oblong
+2026-06-11 16:07:00,249 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\2024022016185590641_1.jpg for class round Successfully
+2026-06-11 16:07:00,259 - [INFO] - [MAIN]:  Start processing image 2024022301001612400221441.jpg for class round
+2026-06-11 16:07:03,874 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\99364763.5.jpg for class heart Successfully
+2026-06-11 16:07:03,898 - [INFO] - [MAIN]:  Start processing image e87b9819d9bc469eaf8f7b20ae403c13.jpg for class heart
+2026-06-11 16:07:25,736 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\20180725_1532503919_03202200_1.jpg for class oval Successfully
+2026-06-11 16:07:25,767 - [INFO] - [MAIN]:  Start processing image 2018072600133_0.jpg for class oval
+2026-06-11 16:07:27,291 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1a77f8b8-3ee2-4e08-aa63-1c0701eaab1a.jpg
+2026-06-11 16:07:27,322 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1a77f8b8-3ee2-4e08-aa63-1c0701eaab1a.jpg in class oblong
+2026-06-11 16:07:27,353 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1a77f8b8-3ee2-4e08-aa63-1c0701eaab1a.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:07:27,377 - [INFO] - [MAIN]:  Start processing image 2015101400016_0.jpg for class oblong
+2026-06-11 16:07:34,156 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\2024022301001612400221441.jpg for class round Successfully
+2026-06-11 16:07:34,174 - [INFO] - [MAIN]:  Start processing image 30000909021.jpg for class round
+2026-06-11 16:07:37,977 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\e87b9819d9bc469eaf8f7b20ae403c13.jpg for class heart Successfully
+2026-06-11 16:07:38,006 - [INFO] - [MAIN]:  Start processing image EDn7f56U8AAaDCt.jpg for class heart
+2026-06-11 16:07:57,813 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\2018072600133_0.jpg for class oval Successfully
+2026-06-11 16:07:57,823 - [INFO] - [MAIN]:  Start processing image 202308242253771280_64e760d03974d.jpg for class oval
+2026-06-11 16:07:59,373 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2015101400016_0.jpg for class oblong Successfully
+2026-06-11 16:07:59,418 - [INFO] - [MAIN]:  Start processing image 20151014000234_0.jpg for class oblong
+2026-06-11 16:08:04,591 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\EDn7f56U8AAaDCt.jpg
+2026-06-11 16:08:04,610 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\EDn7f56U8AAaDCt.jpg in class heart
+2026-06-11 16:08:04,643 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\EDn7f56U8AAaDCt.jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:08:04,652 - [INFO] - [MAIN]:  Start processing image heart (101).jpg for class heart
+2026-06-11 16:08:08,190 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\30000909021.jpg for class round Successfully
+2026-06-11 16:08:08,235 - [INFO] - [MAIN]:  Start processing image 92928865.4.jpg for class round
+2026-06-11 16:08:32,097 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\202308242253771280_64e760d03974d.jpg for class oval Successfully
+2026-06-11 16:08:32,108 - [INFO] - [MAIN]:  Start processing image 32404538cce782.jpg for class oval
+2026-06-11 16:08:32,888 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\20151014000234_0.jpg for class oblong: Tidak menemukan forehead width line yang valid
+2026-06-11 16:08:32,921 - [INFO] - [MAIN]:  Start processing image 2015101409273285.jpg for class oblong
+2026-06-11 16:08:36,985 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (101).jpg for class heart Successfully
+2026-06-11 16:08:37,003 - [INFO] - [MAIN]:  Start processing image heart (102).jpg for class heart
+2026-06-11 16:08:40,528 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\92928865.4.jpg for class round Successfully
+2026-06-11 16:08:40,565 - [INFO] - [MAIN]:  Start processing image isphtm_20181119113316671455.jpg for class round
+2026-06-11 16:09:00,656 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2015101409273285.jpg
+2026-06-11 16:09:00,670 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2015101409273285.jpg in class oblong
+2026-06-11 16:09:00,686 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2015101409273285.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:09:00,704 - [INFO] - [MAIN]:  Start processing image 201510141555541110_1.jpg for class oblong
+2026-06-11 16:09:06,720 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\32404538cce782.jpg for class oval Successfully
+2026-06-11 16:09:06,741 - [INFO] - [MAIN]:  Start processing image 39943_36903_658.jpg for class oval
+2026-06-11 16:09:13,022 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (102).jpg for class heart Successfully
+2026-06-11 16:09:13,043 - [INFO] - [MAIN]:  Start processing image heart (123).jpg for class heart
+2026-06-11 16:09:16,700 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\isphtm_20181119113316671455.jpg for class round Successfully
+2026-06-11 16:09:16,729 - [INFO] - [MAIN]:  Start processing image jpg_dims_ (1).jpg for class round
+2026-06-11 16:09:28,556 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201510141555541110_1.jpg
+2026-06-11 16:09:28,575 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201510141555541110_1.jpg in class oblong
+2026-06-11 16:09:28,621 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201510141555541110_1.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:09:28,653 - [INFO] - [MAIN]:  Start processing image 201510141744077520_d.jpg for class oblong
+2026-06-11 16:09:43,391 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\39943_36903_658.jpg for class oval Successfully
+2026-06-11 16:09:43,407 - [INFO] - [MAIN]:  Start processing image 5a723e1784200.jpg for class oval
+2026-06-11 16:09:43,686 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201510141744077520_d.jpg
+2026-06-11 16:09:43,686 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201510141744077520_d.jpg in class oblong
+2026-06-11 16:09:43,686 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201510141744077520_d.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:09:43,749 - [INFO] - [MAIN]:  Start processing image 20180808001654253_1.jpg for class oblong
+2026-06-11 16:09:43,811 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (123).jpg for class heart Successfully
+2026-06-11 16:09:43,835 - [INFO] - [MAIN]:  Start processing image heart (13).jpg for class heart
+2026-06-11 16:09:43,957 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\jpg_dims_ (1).jpg for class round Successfully
+2026-06-11 16:09:44,021 - [INFO] - [MAIN]:  Start processing image jpg_dims_.jpg for class round
+2026-06-11 16:09:59,427 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\5a723e1784200.jpg for class oval Successfully
+2026-06-11 16:09:59,428 - [INFO] - [MAIN]:  Start processing image 6005157_57768_3741.jpg for class oval
+2026-06-11 16:09:59,624 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\20180808001654253_1.jpg for class oblong Successfully
+2026-06-11 16:09:59,665 - [INFO] - [MAIN]:  Start processing image 201911301342123510_1.jpg for class oblong
+2026-06-11 16:09:59,667 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\jpg_dims_.jpg for class round Successfully
+2026-06-11 16:09:59,717 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (13).jpg for class heart Successfully
+2026-06-11 16:09:59,731 - [INFO] - [MAIN]:  Start processing image jpg_dims_optimize_.jpg for class round
+2026-06-11 16:09:59,803 - [INFO] - [MAIN]:  Start processing image heart (135).jpg for class heart
+2026-06-11 16:10:30,466 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\6005157_57768_3741.jpg for class oval Successfully
+2026-06-11 16:10:30,472 - [INFO] - [MAIN]:  Start processing image 823c62c530f83c6a3140ac106e09fd3f.jpg for class oval
+2026-06-11 16:10:30,683 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (135).jpg for class heart Successfully
+2026-06-11 16:10:30,691 - [INFO] - [MAIN]:  Start processing image heart (137).jpg for class heart
+2026-06-11 16:10:30,726 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\jpg_dims_optimize_.jpg for class round Successfully
+2026-06-11 16:10:30,736 - [INFO] - [MAIN]:  Start processing image l_2014092901001883400120111.jpg for class round
+2026-06-11 16:10:30,784 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\201911301342123510_1.jpg for class oblong Successfully
+2026-06-11 16:10:30,793 - [INFO] - [MAIN]:  Start processing image 202002101487385256_1.jpg for class oblong
+2026-06-11 16:11:03,542 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (137).jpg
+2026-06-11 16:11:03,546 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (137).jpg in class heart
+2026-06-11 16:11:03,547 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (137).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:11:03,548 - [INFO] - [MAIN]:  Start processing image heart (138).jpg for class heart
+2026-06-11 16:11:05,322 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\823c62c530f83c6a3140ac106e09fd3f.jpg for class oval Successfully
+2026-06-11 16:11:05,328 - [INFO] - [MAIN]:  Start processing image 83022612.2.jpg for class oval
+2026-06-11 16:11:06,005 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\l_2014092901001883400120111.jpg for class round Successfully
+2026-06-11 16:11:06,030 - [INFO] - [MAIN]:  Start processing image round (1).jpg for class round
+2026-06-11 16:11:06,903 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\202002101487385256_1.jpg for class oblong: Tidak menemukan forehead width line yang valid
+2026-06-11 16:11:06,949 - [INFO] - [MAIN]:  Start processing image 20210615102401851089.jpg for class oblong
+2026-06-11 16:11:29,383 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (138).jpg
+2026-06-11 16:11:29,411 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (138).jpg in class heart
+2026-06-11 16:11:29,442 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (138).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:11:29,469 - [INFO] - [MAIN]:  Start processing image heart (139).jpg for class heart
+2026-06-11 16:11:40,781 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\83022612.2.jpg for class oval Successfully
+2026-06-11 16:11:40,788 - [INFO] - [MAIN]:  Start processing image 84581706.2.jpg for class oval
+2026-06-11 16:11:42,782 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (1).jpg for class round Successfully
+2026-06-11 16:11:42,808 - [INFO] - [MAIN]:  Start processing image round (1000).jpg for class round
+2026-06-11 16:11:44,142 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\20210615102401851089.jpg for class oblong Successfully
+2026-06-11 16:11:44,168 - [INFO] - [MAIN]:  Start processing image 202107201142169367_0.jpg for class oblong
+2026-06-11 16:12:06,859 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (139).jpg for class heart: Tidak menemukan forehead width line yang valid
+2026-06-11 16:12:06,871 - [INFO] - [MAIN]:  Start processing image heart (140).jpg for class heart
+2026-06-11 16:12:19,908 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\84581706.2.jpg for class oval Successfully
+2026-06-11 16:12:19,913 - [INFO] - [MAIN]:  Start processing image 93900056.2.jpg for class oval
+2026-06-11 16:12:21,664 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (1000).jpg for class round Successfully
+2026-06-11 16:12:21,679 - [INFO] - [MAIN]:  Start processing image round (11).jpg for class round
+2026-06-11 16:12:22,949 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\202107201142169367_0.jpg for class oblong Successfully
+2026-06-11 16:12:23,004 - [INFO] - [MAIN]:  Start processing image 2021080907093228165_1.jpg for class oblong
+2026-06-11 16:12:47,229 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (140).jpg for class heart Successfully
+2026-06-11 16:12:47,247 - [INFO] - [MAIN]:  Start processing image heart (141).jpg for class heart
+2026-06-11 16:12:50,627 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\93900056.2.jpg for class oval Successfully
+2026-06-11 16:12:50,639 - [INFO] - [MAIN]:  Start processing image article.jpg for class oval
+2026-06-11 16:12:52,914 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (11).jpg for class round Successfully
+2026-06-11 16:12:52,935 - [INFO] - [MAIN]:  Start processing image round (12).jpg for class round
+2026-06-11 16:12:54,285 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2021080907093228165_1.jpg for class oblong Successfully
+2026-06-11 16:12:54,322 - [INFO] - [MAIN]:  Start processing image 20221212503903.jpg for class oblong
+2026-06-11 16:13:22,201 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (141).jpg for class heart Successfully
+2026-06-11 16:13:22,236 - [INFO] - [MAIN]:  Start processing image heart (156).jpg for class heart
+2026-06-11 16:13:24,145 - [WARNING] - [DLIB]: No face detected in the image.
+2026-06-11 16:13:24,149 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\20221212503903.jpg for class oblong: [MAIN]:  No landmarks detected in probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\20221212503903.jpg for class oblong. Skipping class.
+2026-06-11 16:13:24,165 - [INFO] - [MAIN]:  Start processing image 2023032909202681296_1.jpg for class oblong
+2026-06-11 16:13:25,151 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\article.jpg for class oval Successfully
+2026-06-11 16:13:25,174 - [INFO] - [MAIN]:  Start processing image cms_temp_article_29184537048053.jpg for class oval
+2026-06-11 16:13:30,004 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (12).jpg for class round Successfully
+2026-06-11 16:13:30,025 - [INFO] - [MAIN]:  Start processing image round (13).jpg for class round
+2026-06-11 16:13:51,287 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (156).jpg
+2026-06-11 16:13:51,301 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (156).jpg in class heart
+2026-06-11 16:13:51,375 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (156).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:13:51,391 - [INFO] - [MAIN]:  Start processing image heart (161).jpg for class heart
+2026-06-11 16:14:00,062 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2023032909202681296_1.jpg for class oblong Successfully
+2026-06-11 16:14:00,075 - [INFO] - [MAIN]:  Start processing image 202307161523086710_1.jpg for class oblong
+2026-06-11 16:14:01,031 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\cms_temp_article_29184537048053.jpg for class oval Successfully
+2026-06-11 16:14:01,051 - [INFO] - [MAIN]:  Start processing image eByF7F6VKWnf636682242737529534.jpg for class oval
+2026-06-11 16:14:06,870 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (13).jpg for class round Successfully
+2026-06-11 16:14:06,907 - [INFO] - [MAIN]:  Start processing image round (135).jpg for class round
+2026-06-11 16:14:25,289 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (161).jpg for class heart Successfully
+2026-06-11 16:14:25,309 - [INFO] - [MAIN]:  Start processing image heart (163).jpg for class heart
+2026-06-11 16:14:33,325 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\202307161523086710_1.jpg for class oblong Successfully
+2026-06-11 16:14:33,337 - [INFO] - [MAIN]:  Start processing image 2030_3501_1450.jpg for class oblong
+2026-06-11 16:14:33,916 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\eByF7F6VKWnf636682242737529534.jpg for class oval Successfully
+2026-06-11 16:14:33,935 - [INFO] - [MAIN]:  Start processing image f55f37823de74b15948cbaba24d075d0.jpg for class oval
+2026-06-11 16:14:40,660 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (135).jpg for class round: Tidak menemukan forehead width line yang valid
+2026-06-11 16:14:40,691 - [INFO] - [MAIN]:  Start processing image round (14).jpg for class round
+2026-06-11 16:14:58,545 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (163).jpg for class heart Successfully
+2026-06-11 16:14:58,579 - [INFO] - [MAIN]:  Start processing image heart (189).jpg for class heart
+2026-06-11 16:15:06,991 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\f55f37823de74b15948cbaba24d075d0.jpg for class oval Successfully
+2026-06-11 16:15:06,990 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\2030_3501_1450.jpg for class oblong Successfully
+2026-06-11 16:15:07,001 - [INFO] - [MAIN]:  Start processing image IE002523576_STD.jpg for class oval
+2026-06-11 16:15:07,020 - [INFO] - [MAIN]:  Start processing image 211472_329880_78.jpg for class oblong
+2026-06-11 16:15:13,745 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (14).jpg for class round Successfully
+2026-06-11 16:15:13,770 - [INFO] - [MAIN]:  Start processing image round (144).jpg for class round
+2026-06-11 16:15:32,316 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (189).jpg for class heart Successfully
+2026-06-11 16:15:32,340 - [INFO] - [MAIN]:  Start processing image heart (192).jpg for class heart
+2026-06-11 16:15:40,446 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\211472_329880_78.jpg for class oblong Successfully
+2026-06-11 16:15:40,456 - [INFO] - [MAIN]:  Start processing image 23.jpg for class oblong
+2026-06-11 16:15:40,506 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\IE002523576_STD.jpg for class oval Successfully
+2026-06-11 16:15:40,516 - [INFO] - [MAIN]:  Start processing image img_20201003222506_c8909a23.jpg for class oval
+2026-06-11 16:15:47,412 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (144).jpg for class round Successfully
+2026-06-11 16:15:47,441 - [INFO] - [MAIN]:  Start processing image round (149).jpg for class round
+2026-06-11 16:16:05,793 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (192).jpg for class heart Successfully
+2026-06-11 16:16:05,825 - [INFO] - [MAIN]:  Start processing image heart (194).jpg for class heart
+2026-06-11 16:16:13,676 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\23.jpg for class oblong Successfully
+2026-06-11 16:16:13,686 - [INFO] - [MAIN]:  Start processing image 241750_144422_4544.jpg for class oblong
+2026-06-11 16:16:13,749 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (149).jpg
+2026-06-11 16:16:13,754 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (149).jpg in class round
+2026-06-11 16:16:13,768 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (149).jpg for class round: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:16:13,770 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\img_20201003222506_c8909a23.jpg for class oval Successfully
+2026-06-11 16:16:13,773 - [INFO] - [MAIN]:  Start processing image round (15).jpg for class round
+2026-06-11 16:16:13,789 - [INFO] - [MAIN]:  Start processing image isp2017091920530623600.jpg for class oval
+2026-06-11 16:16:41,290 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (194).jpg for class heart Successfully
+2026-06-11 16:16:41,319 - [INFO] - [MAIN]:  Start processing image heart (196).jpg for class heart
+2026-06-11 16:16:47,066 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\241750_144422_4544.jpg for class oblong Successfully
+2026-06-11 16:16:47,076 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\isp2017091920530623600.jpg for class oval Successfully
+2026-06-11 16:16:47,080 - [INFO] - [MAIN]:  Start processing image 247430_83203_3850.jpg for class oblong
+2026-06-11 16:16:47,092 - [INFO] - [MAIN]:  Start processing image jpg_dims_ (1).jpg for class oval
+2026-06-11 16:16:47,155 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (15).jpg for class round Successfully
+2026-06-11 16:16:47,163 - [INFO] - [MAIN]:  Start processing image round (152).jpg for class round
+2026-06-11 16:17:15,295 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (196).jpg for class heart Successfully
+2026-06-11 16:17:15,340 - [INFO] - [MAIN]:  Start processing image heart (200).jpg for class heart
+2026-06-11 16:17:20,521 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\247430_83203_3850.jpg for class oblong Successfully
+2026-06-11 16:17:20,532 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\jpg_dims_ (1).jpg for class oval Successfully
+2026-06-11 16:17:20,533 - [INFO] - [MAIN]:  Start processing image 29QRXXODPF_1.jpg for class oblong
+2026-06-11 16:17:20,539 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (152).jpg for class round Successfully
+2026-06-11 16:17:20,553 - [INFO] - [MAIN]:  Start processing image L20170626.99002200118i1.jpg for class oval
+2026-06-11 16:17:20,577 - [INFO] - [MAIN]:  Start processing image round (153).jpg for class round
+2026-06-11 16:17:49,358 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (200).jpg for class heart Successfully
+2026-06-11 16:17:49,384 - [INFO] - [MAIN]:  Start processing image heart (203).jpg for class heart
+2026-06-11 16:17:53,626 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\29QRXXODPF_1.jpg for class oblong Successfully
+2026-06-11 16:17:53,637 - [INFO] - [MAIN]:  Start processing image 30200047-a010-474c-abfa-fec33e7202ea.jpg for class oblong
+2026-06-11 16:17:53,741 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (153).jpg for class round Successfully
+2026-06-11 16:17:53,741 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\L20170626.99002200118i1.jpg for class oval Successfully
+2026-06-11 16:17:53,750 - [INFO] - [MAIN]:  Start processing image round (154).jpg for class round
+2026-06-11 16:17:53,771 - [INFO] - [MAIN]:  Start processing image l_2015093002002243100375241.jpg for class oval
+2026-06-11 16:18:15,550 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (203).jpg
+2026-06-11 16:18:15,579 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (203).jpg in class heart
+2026-06-11 16:18:15,607 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (203).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:18:15,636 - [INFO] - [MAIN]:  Start processing image heart (204).jpg for class heart
+2026-06-11 16:18:25,936 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\30200047-a010-474c-abfa-fec33e7202ea.jpg
+2026-06-11 16:18:25,943 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\30200047-a010-474c-abfa-fec33e7202ea.jpg in class oblong
+2026-06-11 16:18:25,971 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\30200047-a010-474c-abfa-fec33e7202ea.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:18:25,999 - [INFO] - [MAIN]:  Start processing image 3485_12039_2600.jpg for class oblong
+2026-06-11 16:18:26,299 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\l_2015093002002243100375241.jpg
+2026-06-11 16:18:26,306 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\l_2015093002002243100375241.jpg in class oval
+2026-06-11 16:18:26,318 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\l_2015093002002243100375241.jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:18:26,322 - [INFO] - [MAIN]:  Start processing image mb_1521780401945576.jpg for class oval
+2026-06-11 16:18:33,509 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (154).jpg for class round Successfully
+2026-06-11 16:18:33,538 - [INFO] - [MAIN]:  Start processing image round (157).jpg for class round
+2026-06-11 16:18:46,185 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (204).jpg
+2026-06-11 16:18:46,202 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (204).jpg in class heart
+2026-06-11 16:18:46,226 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (204).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:18:46,241 - [INFO] - [MAIN]:  Start processing image heart (223).jpg for class heart
+2026-06-11 16:18:56,226 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\mb_1521780401945576.jpg
+2026-06-11 16:18:56,245 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\mb_1521780401945576.jpg in class oval
+2026-06-11 16:18:56,278 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\mb_1521780401945576.jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:18:56,291 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\3485_12039_2600.jpg
+2026-06-11 16:18:56,292 - [INFO] - [MAIN]:  Start processing image mb_1657836547161952.jpg for class oval
+2026-06-11 16:18:56,340 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\3485_12039_2600.jpg in class oblong
+2026-06-11 16:18:56,365 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\3485_12039_2600.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:18:56,387 - [INFO] - [MAIN]:  Start processing image 53a5bdaa-7b3a-48d3-bc1e-bf1238206d8f.jpg for class oblong
+2026-06-11 16:19:13,768 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (157).jpg for class round Successfully
+2026-06-11 16:19:13,795 - [INFO] - [MAIN]:  Start processing image round (158).jpg for class round
+2026-06-11 16:19:24,159 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (223).jpg for class heart Successfully
+2026-06-11 16:19:24,171 - [INFO] - [MAIN]:  Start processing image heart (224).jpg for class heart
+2026-06-11 16:19:28,769 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\53a5bdaa-7b3a-48d3-bc1e-bf1238206d8f.jpg for class oblong Successfully
+2026-06-11 16:19:28,791 - [INFO] - [MAIN]:  Start processing image 6004780_57104_347.jpg for class oblong
+2026-06-11 16:19:29,382 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\mb_1657836547161952.jpg for class oval Successfully
+2026-06-11 16:19:29,405 - [INFO] - [MAIN]:  Start processing image mb_1705308304160713.jpg for class oval
+2026-06-11 16:19:46,004 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (158).jpg for class round Successfully
+2026-06-11 16:19:46,031 - [INFO] - [MAIN]:  Start processing image round (159).jpg for class round
+2026-06-11 16:19:56,830 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (224).jpg for class heart Successfully
+2026-06-11 16:19:56,854 - [INFO] - [MAIN]:  Start processing image heart (225).jpg for class heart
+2026-06-11 16:20:02,458 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\6004780_57104_347.jpg for class oblong Successfully
+2026-06-11 16:20:02,478 - [INFO] - [MAIN]:  Start processing image 611815110014346545_1.jpg for class oblong
+2026-06-11 16:20:02,622 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\mb_1705308304160713.jpg for class oval Successfully
+2026-06-11 16:20:02,654 - [INFO] - [MAIN]:  Start processing image oval (106).jpg for class oval
+2026-06-11 16:20:19,497 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (159).jpg for class round Successfully
+2026-06-11 16:20:19,525 - [INFO] - [MAIN]:  Start processing image round (160).jpg for class round
+2026-06-11 16:20:29,327 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (225).jpg for class heart Successfully
+2026-06-11 16:20:29,356 - [INFO] - [MAIN]:  Start processing image heart (226).jpg for class heart
+2026-06-11 16:20:35,349 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\611815110014346545_1.jpg for class oblong Successfully
+2026-06-11 16:20:35,387 - [INFO] - [MAIN]:  Start processing image 690118_689591_5026.jpg for class oblong
+2026-06-11 16:20:35,794 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (106).jpg for class oval Successfully
+2026-06-11 16:20:35,823 - [INFO] - [MAIN]:  Start processing image oval (109).jpg for class oval
+2026-06-11 16:20:52,501 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (160).jpg for class round Successfully
+2026-06-11 16:20:52,531 - [INFO] - [MAIN]:  Start processing image round (162).jpg for class round
+2026-06-11 16:21:02,510 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (226).jpg for class heart Successfully
+2026-06-11 16:21:02,536 - [INFO] - [MAIN]:  Start processing image heart (227).jpg for class heart
+2026-06-11 16:21:03,141 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\690118_689591_5026.jpg
+2026-06-11 16:21:03,151 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\690118_689591_5026.jpg in class oblong
+2026-06-11 16:21:03,154 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\690118_689591_5026.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:21:03,156 - [INFO] - [MAIN]:  Start processing image 7b25c0f6-011b-41c1-a064-92ab23572809.jpg for class oblong
+2026-06-11 16:21:11,146 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (109).jpg for class oval Successfully
+2026-06-11 16:21:11,175 - [INFO] - [MAIN]:  Start processing image oval (140).jpg for class oval
+2026-06-11 16:21:27,844 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (162).jpg for class round Successfully
+2026-06-11 16:21:27,872 - [INFO] - [MAIN]:  Start processing image round (17).jpg for class round
+2026-06-11 16:21:30,413 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (227).jpg
+2026-06-11 16:21:30,442 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (227).jpg in class heart
+2026-06-11 16:21:30,472 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (227).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:21:30,501 - [INFO] - [MAIN]:  Start processing image heart (228).jpg for class heart
+2026-06-11 16:21:38,475 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\7b25c0f6-011b-41c1-a064-92ab23572809.jpg for class oblong Successfully
+2026-06-11 16:21:38,475 - [INFO] - [MAIN]:  Start processing image 93641_127452_1690356268.jpg for class oblong
+2026-06-11 16:21:38,780 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (140).jpg
+2026-06-11 16:21:38,799 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (140).jpg in class oval
+2026-06-11 16:21:38,819 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (140).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:21:38,840 - [INFO] - [MAIN]:  Start processing image oval (141).jpg for class oval
+2026-06-11 16:22:03,461 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (17).jpg for class round Successfully
+2026-06-11 16:22:03,476 - [INFO] - [MAIN]:  Start processing image round (18).jpg for class round
+2026-06-11 16:22:04,856 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (228).jpg for class heart Successfully
+2026-06-11 16:22:04,904 - [INFO] - [MAIN]:  Start processing image heart (229).jpg for class heart
+2026-06-11 16:22:11,581 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\93641_127452_1690356268.jpg for class oblong Successfully
+2026-06-11 16:22:11,605 - [INFO] - [MAIN]:  Start processing image AKR20191127072000005_01_i_P4.jpg for class oblong
+2026-06-11 16:22:12,095 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (141).jpg for class oval Successfully
+2026-06-11 16:22:12,131 - [INFO] - [MAIN]:  Start processing image oval (142).jpg for class oval
+2026-06-11 16:22:36,845 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (18).jpg for class round Successfully
+2026-06-11 16:22:36,857 - [INFO] - [MAIN]:  Start processing image round (189).jpg for class round
+2026-06-11 16:22:37,026 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (229).jpg for class heart Successfully
+2026-06-11 16:22:37,041 - [INFO] - [MAIN]:  Start processing image heart (230).jpg for class heart
+2026-06-11 16:22:39,969 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (142).jpg
+2026-06-11 16:22:39,993 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (142).jpg in class oval
+2026-06-11 16:22:40,015 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (142).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:22:40,041 - [INFO] - [MAIN]:  Start processing image oval (143).jpg for class oval
+2026-06-11 16:22:47,072 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\AKR20191127072000005_01_i_P4.jpg for class oblong Successfully
+2026-06-11 16:22:47,101 - [INFO] - [MAIN]:  Start processing image art_15937548733522_826abd.png for class oblong
+2026-06-11 16:23:10,330 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (230).jpg for class heart Successfully
+2026-06-11 16:23:10,338 - [INFO] - [MAIN]:  Start processing image heart (233).jpg for class heart
+2026-06-11 16:23:10,403 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (189).jpg for class round Successfully
+2026-06-11 16:23:10,413 - [INFO] - [MAIN]:  Start processing image round (19).jpg for class round
+2026-06-11 16:23:12,160 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (143).jpg for class oval Successfully
+2026-06-11 16:23:12,170 - [INFO] - [MAIN]:  Start processing image oval (144).jpg for class oval
+2026-06-11 16:23:21,473 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\art_15937548733522_826abd.png for class oblong Successfully
+2026-06-11 16:23:21,500 - [INFO] - [MAIN]:  Start processing image BF.29159109.1.jpg for class oblong
+2026-06-11 16:23:42,583 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (233).jpg for class heart Successfully
+2026-06-11 16:23:42,596 - [INFO] - [MAIN]:  Start processing image heart (234).jpg for class heart
+2026-06-11 16:23:42,875 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (19).jpg for class round Successfully
+2026-06-11 16:23:42,894 - [INFO] - [MAIN]:  Start processing image round (2).jpg for class round
+2026-06-11 16:23:44,183 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (144).jpg for class oval Successfully
+2026-06-11 16:23:44,211 - [INFO] - [MAIN]:  Start processing image oval (145).jpg for class oval
+2026-06-11 16:23:55,781 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\BF.29159109.1.jpg for class oblong Successfully
+2026-06-11 16:23:55,810 - [INFO] - [MAIN]:  Start processing image cms_temp_article_04174723861709.jpg for class oblong
+2026-06-11 16:24:13,287 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (145).jpg
+2026-06-11 16:24:13,299 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (145).jpg in class oval
+2026-06-11 16:24:13,307 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (145).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:24:13,322 - [INFO] - [MAIN]:  Start processing image oval (16).jpg for class oval
+2026-06-11 16:24:16,541 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (234).jpg for class heart Successfully
+2026-06-11 16:24:16,550 - [INFO] - [MAIN]:  Start processing image heart (235).jpg for class heart
+2026-06-11 16:24:17,182 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (2).jpg for class round Successfully
+2026-06-11 16:24:17,207 - [INFO] - [MAIN]:  Start processing image round (20).jpg for class round
+2026-06-11 16:24:31,141 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\cms_temp_article_04174723861709.jpg for class oblong Successfully
+2026-06-11 16:24:31,163 - [INFO] - [MAIN]:  Start processing image CONTENTS_20220721162136_ff4d6a15ef7925b03cce8ab9f72a772b.jpg for class oblong
+2026-06-11 16:24:46,012 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (16).jpg for class oval Successfully
+2026-06-11 16:24:46,024 - [INFO] - [MAIN]:  Start processing image oval (195).jpg for class oval
+2026-06-11 16:24:49,221 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (235).jpg for class heart Successfully
+2026-06-11 16:24:49,251 - [INFO] - [MAIN]:  Start processing image heart (236).jpg for class heart
+2026-06-11 16:24:49,823 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (20).jpg for class round Successfully
+2026-06-11 16:24:49,848 - [INFO] - [MAIN]:  Start processing image round (213).jpg for class round
+2026-06-11 16:25:04,480 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\CONTENTS_20220721162136_ff4d6a15ef7925b03cce8ab9f72a772b.jpg for class oblong Successfully
+2026-06-11 16:25:04,494 - [INFO] - [MAIN]:  Start processing image eTrLZ8Bs8dmBrZMa-jqzBaYA0DHH9ZYvDOyltgjAlgrVfbcKIjq-MoOM9fFdU-2iCETsY4QLoIAESL7WT6xdKA.jpg for class oblong
+2026-06-11 16:25:12,290 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (195).jpg
+2026-06-11 16:25:12,325 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (195).jpg in class oval
+2026-06-11 16:25:12,355 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (195).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:25:12,384 - [INFO] - [MAIN]:  Start processing image oval (196).jpg for class oval
+2026-06-11 16:25:24,604 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (236).jpg for class heart Successfully
+2026-06-11 16:25:24,631 - [INFO] - [MAIN]:  Start processing image heart (237).jpg for class heart
+2026-06-11 16:25:24,748 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (213).jpg for class round Successfully
+2026-06-11 16:25:24,763 - [INFO] - [MAIN]:  Start processing image round (22).jpg for class round
+2026-06-11 16:25:31,905 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\eTrLZ8Bs8dmBrZMa-jqzBaYA0DHH9ZYvDOyltgjAlgrVfbcKIjq-MoOM9fFdU-2iCETsY4QLoIAESL7WT6xdKA.jpg
+2026-06-11 16:25:31,931 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\eTrLZ8Bs8dmBrZMa-jqzBaYA0DHH9ZYvDOyltgjAlgrVfbcKIjq-MoOM9fFdU-2iCETsY4QLoIAESL7WT6xdKA.jpg in class oblong
+2026-06-11 16:25:31,945 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\eTrLZ8Bs8dmBrZMa-jqzBaYA0DHH9ZYvDOyltgjAlgrVfbcKIjq-MoOM9fFdU-2iCETsY4QLoIAESL7WT6xdKA.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:25:31,958 - [INFO] - [MAIN]:  Start processing image fffec244-3ea4-487e-b893-f98c8eaa1605.jpg for class oblong
+2026-06-11 16:25:39,982 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (196).jpg
+2026-06-11 16:25:40,008 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (196).jpg in class oval
+2026-06-11 16:25:40,032 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (196).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:25:40,066 - [INFO] - [MAIN]:  Start processing image oval (197).jpg for class oval
+2026-06-11 16:25:57,204 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (237).jpg
+2026-06-11 16:25:57,224 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (237).jpg in class heart
+2026-06-11 16:25:57,240 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (237).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:25:57,244 - [INFO] - [MAIN]:  Start processing image heart (238).jpg for class heart
+2026-06-11 16:26:03,953 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (22).jpg for class round Successfully
+2026-06-11 16:26:03,969 - [INFO] - [MAIN]:  Start processing image round (23).jpg for class round
+2026-06-11 16:26:08,410 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (197).jpg
+2026-06-11 16:26:08,437 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (197).jpg in class oval
+2026-06-11 16:26:08,463 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (197).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:26:08,488 - [INFO] - [MAIN]:  Start processing image oval (198).jpg for class oval
+2026-06-11 16:26:08,866 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\fffec244-3ea4-487e-b893-f98c8eaa1605.jpg for class oblong Successfully
+2026-06-11 16:26:08,885 - [INFO] - [MAIN]:  Start processing image IE002738267_STD.jpg for class oblong
+2026-06-11 16:26:32,025 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (238).jpg for class heart Successfully
+2026-06-11 16:26:32,056 - [INFO] - [MAIN]:  Start processing image heart (239).jpg for class heart
+2026-06-11 16:26:37,226 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (198).jpg
+2026-06-11 16:26:37,251 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (198).jpg in class oval
+2026-06-11 16:26:37,273 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (198).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:26:37,291 - [INFO] - [MAIN]:  Start processing image oval (2).jpg for class oval
+2026-06-11 16:26:38,957 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (23).jpg for class round Successfully
+2026-06-11 16:26:38,985 - [INFO] - [MAIN]:  Start processing image round (24).jpg for class round
+2026-06-11 16:26:44,598 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\IE002738267_STD.jpg for class oblong Successfully
+2026-06-11 16:26:44,626 - [INFO] - [MAIN]:  Start processing image IE002738269_STD.jpg for class oblong
+2026-06-11 16:26:59,918 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (239).jpg
+2026-06-11 16:26:59,931 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (239).jpg in class heart
+2026-06-11 16:26:59,957 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (239).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:26:59,965 - [INFO] - [MAIN]:  Start processing image heart (240).jpg for class heart
+2026-06-11 16:27:12,030 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (2).jpg for class oval Successfully
+2026-06-11 16:27:12,049 - [INFO] - [MAIN]:  Start processing image oval (200).jpg for class oval
+2026-06-11 16:27:13,753 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (24).jpg for class round Successfully
+2026-06-11 16:27:13,772 - [INFO] - [MAIN]:  Start processing image round (260).jpg for class round
+2026-06-11 16:27:19,604 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\IE002738269_STD.jpg for class oblong Successfully
+2026-06-11 16:27:19,622 - [INFO] - [MAIN]:  Start processing image image_readtop_2020_167832_15820107854092036.jpg for class oblong
+2026-06-11 16:27:25,445 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (240).jpg
+2026-06-11 16:27:25,463 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (240).jpg in class heart
+2026-06-11 16:27:25,498 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (240).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:27:25,528 - [INFO] - [MAIN]:  Start processing image heart (249).jpg for class heart
+2026-06-11 16:27:40,792 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (200).jpg
+2026-06-11 16:27:40,836 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (200).jpg in class oval
+2026-06-11 16:27:40,868 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (200).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:27:40,900 - [INFO] - [MAIN]:  Start processing image oval (201).jpg for class oval
+2026-06-11 16:27:50,554 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (260).jpg for class round Successfully
+2026-06-11 16:27:50,575 - [INFO] - [MAIN]:  Start processing image round (261).jpg for class round
+2026-06-11 16:27:54,291 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (249).jpg
+2026-06-11 16:27:54,316 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (249).jpg in class heart
+2026-06-11 16:27:54,338 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (249).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:27:54,361 - [INFO] - [MAIN]:  Start processing image heart (260).jpg for class heart
+2026-06-11 16:27:57,740 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\image_readtop_2020_167832_15820107854092036.jpg for class oblong Successfully
+2026-06-11 16:27:57,791 - [INFO] - [MAIN]:  Start processing image image_readtop_2022_328109_16497476075007118.jpg for class oblong
+2026-06-11 16:28:08,425 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (201).jpg
+2026-06-11 16:28:08,444 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (201).jpg in class oval
+2026-06-11 16:28:08,461 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (201).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:28:08,490 - [INFO] - [MAIN]:  Start processing image oval (204).jpg for class oval
+2026-06-11 16:28:23,873 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (260).jpg
+2026-06-11 16:28:23,892 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (260).jpg in class heart
+2026-06-11 16:28:23,909 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (260).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:28:23,929 - [INFO] - [MAIN]:  Start processing image heart (271).jpg for class heart
+2026-06-11 16:28:27,846 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (261).jpg for class round Successfully
+2026-06-11 16:28:27,853 - [INFO] - [MAIN]:  Start processing image round (262).jpg for class round
+2026-06-11 16:28:27,907 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\image_readtop_2022_328109_16497476075007118.jpg
+2026-06-11 16:28:27,927 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\image_readtop_2022_328109_16497476075007118.jpg in class oblong
+2026-06-11 16:28:27,946 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\image_readtop_2022_328109_16497476075007118.jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:28:27,963 - [INFO] - [MAIN]:  Start processing image image_readtop_2022_637063_16582241075112715.jpg for class oblong
+2026-06-11 16:28:38,478 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (204).jpg
+2026-06-11 16:28:38,512 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (204).jpg in class oval
+2026-06-11 16:28:38,541 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (204).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:28:38,573 - [INFO] - [MAIN]:  Start processing image oval (205).jpg for class oval
+2026-06-11 16:28:56,950 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (271).jpg for class heart Successfully
+2026-06-11 16:28:56,952 - [INFO] - [MAIN]:  Start processing image heart (282).jpg for class heart
+2026-06-11 16:28:56,978 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (262).jpg for class round Successfully
+2026-06-11 16:28:56,978 - [INFO] - [MAIN]:  Start processing image round (263).jpg for class round
+2026-06-11 16:28:57,055 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\image_readtop_2022_637063_16582241075112715.jpg for class oblong Successfully
+2026-06-11 16:28:57,055 - [INFO] - [MAIN]:  Start processing image img_20210805161827_tn1240lh.jpg for class oblong
+2026-06-11 16:29:03,325 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (205).jpg for class oval Successfully
+2026-06-11 16:29:03,340 - [INFO] - [MAIN]:  Start processing image oval (206).jpg for class oval
+2026-06-11 16:29:17,837 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (282).jpg
+2026-06-11 16:29:17,853 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (282).jpg in class heart
+2026-06-11 16:29:17,873 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (282).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:29:17,895 - [INFO] - [MAIN]:  Start processing image heart (283).jpg for class heart
+2026-06-11 16:29:23,268 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (263).jpg for class round Successfully
+2026-06-11 16:29:23,290 - [INFO] - [MAIN]:  Start processing image round (264).jpg for class round
+2026-06-11 16:29:23,597 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\img_20210805161827_tn1240lh.jpg for class oblong Successfully
+2026-06-11 16:29:23,630 - [INFO] - [MAIN]:  Start processing image img_20211025160522_da8e4db2.jpg for class oblong
+2026-06-11 16:29:38,195 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (206).jpg for class oval Successfully
+2026-06-11 16:29:38,225 - [INFO] - [MAIN]:  Start processing image oval (207).jpg for class oval
+2026-06-11 16:29:50,823 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (283).jpg for class heart Successfully
+2026-06-11 16:29:50,842 - [INFO] - [MAIN]:  Start processing image heart (294).jpg for class heart
+2026-06-11 16:29:55,427 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (264).jpg for class round Successfully
+2026-06-11 16:29:55,445 - [INFO] - [MAIN]:  Start processing image round (265).jpg for class round
+2026-06-11 16:29:56,667 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\img_20211025160522_da8e4db2.jpg for class oblong Successfully
+2026-06-11 16:29:56,697 - [INFO] - [MAIN]:  Start processing image isp20231122000079.600x.8.jpg for class oblong
+2026-06-11 16:30:11,075 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (207).jpg for class oval Successfully
+2026-06-11 16:30:11,101 - [INFO] - [MAIN]:  Start processing image oval (219).jpg for class oval
+2026-06-11 16:30:15,472 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (294).jpg
+2026-06-11 16:30:15,510 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (294).jpg in class heart
+2026-06-11 16:30:15,536 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (294).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:30:15,566 - [INFO] - [MAIN]:  Start processing image heart (3).jpg for class heart
+2026-06-11 16:30:29,424 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (265).jpg for class round Successfully
+2026-06-11 16:30:29,440 - [INFO] - [MAIN]:  Start processing image round (267).jpg for class round
+2026-06-11 16:30:31,074 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\isp20231122000079.600x.8.jpg for class oblong Successfully
+2026-06-11 16:30:31,095 - [INFO] - [MAIN]:  Start processing image isphtm_20150102142512c010c011.jpg for class oblong
+2026-06-11 16:30:38,372 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (219).jpg
+2026-06-11 16:30:38,411 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (219).jpg in class oval
+2026-06-11 16:30:38,437 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (219).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:30:38,464 - [INFO] - [MAIN]:  Start processing image oval (231).jpg for class oval
+2026-06-11 16:30:49,672 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (3).jpg for class heart Successfully
+2026-06-11 16:30:49,717 - [INFO] - [MAIN]:  Start processing image heart (303).jpg for class heart
+2026-06-11 16:31:03,542 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (267).jpg for class round Successfully
+2026-06-11 16:31:03,555 - [INFO] - [MAIN]:  Start processing image round (268).jpg for class round
+2026-06-11 16:31:04,862 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\isphtm_20150102142512c010c011.jpg for class oblong Successfully
+2026-06-11 16:31:04,878 - [INFO] - [MAIN]:  Start processing image jpg_dims_ (1).jpg for class oblong
+2026-06-11 16:31:12,182 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (231).jpg for class oval Successfully
+2026-06-11 16:31:12,212 - [INFO] - [MAIN]:  Start processing image oval (237).jpg for class oval
+2026-06-11 16:31:21,464 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (303).jpg for class heart Successfully
+2026-06-11 16:31:21,494 - [INFO] - [MAIN]:  Start processing image heart (323).jpg for class heart
+2026-06-11 16:31:29,964 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (268).jpg
+2026-06-11 16:31:29,977 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (268).jpg in class round
+2026-06-11 16:31:29,998 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (268).jpg for class round: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:31:30,019 - [INFO] - [MAIN]:  Start processing image round (269).jpg for class round
+2026-06-11 16:31:31,653 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\jpg_dims_ (1).jpg
+2026-06-11 16:31:31,682 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\jpg_dims_ (1).jpg in class oblong
+2026-06-11 16:31:31,697 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\jpg_dims_ (1).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:31:31,712 - [INFO] - [MAIN]:  Start processing image kKlrLg6665n35_Y5g3bL0Ga-qbEtGJ3M4Cqptaa4cTdJd6RHsJCh44ktbJxecX2tNJNPDAkkZDKTZxX6M4V7oA.jpg for class oblong
+2026-06-11 16:31:49,147 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (237).jpg for class oval Successfully
+2026-06-11 16:31:49,170 - [INFO] - [MAIN]:  Start processing image oval (246).jpg for class oval
+2026-06-11 16:31:57,994 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (323).jpg for class heart Successfully
+2026-06-11 16:31:58,007 - [INFO] - [MAIN]:  Start processing image heart (326).jpg for class heart
+2026-06-11 16:32:02,435 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (269).jpg for class round Successfully
+2026-06-11 16:32:02,466 - [INFO] - [MAIN]:  Start processing image round (270).jpg for class round
+2026-06-11 16:32:03,934 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\kKlrLg6665n35_Y5g3bL0Ga-qbEtGJ3M4Cqptaa4cTdJd6RHsJCh44ktbJxecX2tNJNPDAkkZDKTZxX6M4V7oA.jpg for class oblong Successfully
+2026-06-11 16:32:03,964 - [INFO] - [MAIN]:  Start processing image maxresdefault.jpg for class oblong
+2026-06-11 16:32:21,256 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (246).jpg for class oval: Tidak menemukan forehead width line yang valid
+2026-06-11 16:32:21,272 - [INFO] - [MAIN]:  Start processing image oval (249).jpg for class oval
+2026-06-11 16:32:29,329 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (326).jpg for class heart Successfully
+2026-06-11 16:32:29,348 - [INFO] - [MAIN]:  Start processing image heart (333).jpg for class heart
+2026-06-11 16:32:34,472 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (270).jpg for class round Successfully
+2026-06-11 16:32:34,492 - [INFO] - [MAIN]:  Start processing image round (271).jpg for class round
+2026-06-11 16:32:35,742 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\maxresdefault.jpg for class oblong Successfully
+2026-06-11 16:32:35,767 - [INFO] - [MAIN]:  Start processing image mb_1657699961270346.jpg for class oblong
+2026-06-11 16:32:53,368 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (249).jpg for class oval: Tidak menemukan forehead width line yang valid
+2026-06-11 16:32:53,394 - [INFO] - [MAIN]:  Start processing image oval (25).jpg for class oval
+2026-06-11 16:33:01,140 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (333).jpg for class heart Successfully
+2026-06-11 16:33:01,151 - [INFO] - [MAIN]:  Start processing image heart (334).jpg for class heart
+2026-06-11 16:33:06,850 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (271).jpg for class round Successfully
+2026-06-11 16:33:06,859 - [INFO] - [MAIN]:  Start processing image round (272).jpg for class round
+2026-06-11 16:33:07,778 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\mb_1657699961270346.jpg for class oblong Successfully
+2026-06-11 16:33:07,813 - [INFO] - [MAIN]:  Start processing image news-p.v1.20230130.52a25501c073455b9df5d140d301e43c_P1.jpg for class oblong
+2026-06-11 16:33:25,630 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (25).jpg for class oval Successfully
+2026-06-11 16:33:25,649 - [INFO] - [MAIN]:  Start processing image oval (250).jpg for class oval
+2026-06-11 16:33:32,819 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (334).jpg for class heart Successfully
+2026-06-11 16:33:32,839 - [INFO] - [MAIN]:  Start processing image heart (336).jpg for class heart
+2026-06-11 16:33:39,054 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (272).jpg for class round Successfully
+2026-06-11 16:33:39,074 - [INFO] - [MAIN]:  Start processing image round (273).jpg for class round
+2026-06-11 16:33:40,189 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\news-p.v1.20230130.52a25501c073455b9df5d140d301e43c_P1.jpg for class oblong Successfully
+2026-06-11 16:33:40,213 - [INFO] - [MAIN]:  Start processing image news_1658470237_1135330_m_1.jpg for class oblong
+2026-06-11 16:33:57,284 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (336).jpg
+2026-06-11 16:33:57,308 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (336).jpg in class heart
+2026-06-11 16:33:57,333 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (336).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:33:57,356 - [INFO] - [MAIN]:  Start processing image heart (341).jpg for class heart
+2026-06-11 16:33:57,681 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (250).jpg for class oval Successfully
+2026-06-11 16:33:57,693 - [INFO] - [MAIN]:  Start processing image oval (256).jpg for class oval
+2026-06-11 16:34:13,404 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (273).jpg for class round Successfully
+2026-06-11 16:34:13,424 - [INFO] - [MAIN]:  Start processing image round (274).jpg for class round
+2026-06-11 16:34:14,274 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\news_1658470237_1135330_m_1.jpg for class oblong Successfully
+2026-06-11 16:34:14,302 - [INFO] - [MAIN]:  Start processing image NISI20190603_0015259550_web.jpg for class oblong
+2026-06-11 16:34:24,420 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (256).jpg
+2026-06-11 16:34:24,435 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (256).jpg in class oval
+2026-06-11 16:34:24,457 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (256).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:34:24,479 - [INFO] - [MAIN]:  Start processing image oval (258).jpg for class oval
+2026-06-11 16:34:30,969 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (341).jpg for class heart Successfully
+2026-06-11 16:34:30,994 - [INFO] - [MAIN]:  Start processing image heart (343).jpg for class heart
+2026-06-11 16:34:48,077 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (274).jpg for class round Successfully
+2026-06-11 16:34:48,097 - [INFO] - [MAIN]:  Start processing image round (275).jpg for class round
+2026-06-11 16:34:48,800 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\NISI20190603_0015259550_web.jpg for class oblong Successfully
+2026-06-11 16:34:48,825 - [INFO] - [MAIN]:  Start processing image oblong (10).jpg for class oblong
+2026-06-11 16:34:56,530 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (258).jpg for class oval Successfully
+2026-06-11 16:34:56,549 - [INFO] - [MAIN]:  Start processing image oval (259).jpg for class oval
+2026-06-11 16:35:03,097 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (343).jpg for class heart Successfully
+2026-06-11 16:35:03,134 - [INFO] - [MAIN]:  Start processing image heart (344).jpg for class heart
+2026-06-11 16:35:19,809 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (275).jpg for class round Successfully
+2026-06-11 16:35:19,828 - [INFO] - [MAIN]:  Start processing image round (276).jpg for class round
+2026-06-11 16:35:20,792 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (10).jpg for class oblong Successfully
+2026-06-11 16:35:20,817 - [INFO] - [MAIN]:  Start processing image oblong (106).jpg for class oblong
+2026-06-11 16:35:22,473 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (259).jpg for class oval Successfully
+2026-06-11 16:35:22,480 - [INFO] - [MAIN]:  Start processing image oval (260).jpg for class oval
+2026-06-11 16:35:30,828 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (344).jpg for class heart Successfully
+2026-06-11 16:35:30,853 - [INFO] - [MAIN]:  Start processing image heart (354).jpg for class heart
+2026-06-11 16:35:53,152 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (106).jpg
+2026-06-11 16:35:53,161 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (106).jpg in class oblong
+2026-06-11 16:35:53,165 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (106).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:35:53,167 - [INFO] - [MAIN]:  Start processing image oblong (107).jpg for class oblong
+2026-06-11 16:35:57,462 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (260).jpg for class oval Successfully
+2026-06-11 16:35:57,483 - [INFO] - [MAIN]:  Start processing image oval (274).jpg for class oval
+2026-06-11 16:35:57,585 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (276).jpg for class round Successfully
+2026-06-11 16:35:57,613 - [INFO] - [MAIN]:  Start processing image round (279).jpg for class round
+2026-06-11 16:35:58,308 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (354).jpg
+2026-06-11 16:35:58,339 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (354).jpg in class heart
+2026-06-11 16:35:58,370 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (354).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:35:58,399 - [INFO] - [MAIN]:  Start processing image heart (358).jpg for class heart
+2026-06-11 16:36:28,289 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (274).jpg
+2026-06-11 16:36:28,297 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (274).jpg in class oval
+2026-06-11 16:36:28,302 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (274).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:36:28,312 - [INFO] - [MAIN]:  Start processing image oval (275).jpg for class oval
+2026-06-11 16:36:28,507 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (107).jpg for class oblong Successfully
+2026-06-11 16:36:28,514 - [INFO] - [MAIN]:  Start processing image oblong (11).jpg for class oblong
+2026-06-11 16:36:31,935 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (279).jpg for class round Successfully
+2026-06-11 16:36:31,955 - [INFO] - [MAIN]:  Start processing image round (281).jpg for class round
+2026-06-11 16:36:34,517 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (358).jpg for class heart Successfully
+2026-06-11 16:36:34,548 - [INFO] - [MAIN]:  Start processing image heart (364).jpg for class heart
+2026-06-11 16:36:56,017 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (275).jpg
+2026-06-11 16:36:56,041 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (275).jpg in class oval
+2026-06-11 16:36:56,069 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (275).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:36:56,095 - [INFO] - [MAIN]:  Start processing image oval (276).jpg for class oval
+2026-06-11 16:37:03,349 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (11).jpg for class oblong Successfully
+2026-06-11 16:37:03,368 - [INFO] - [MAIN]:  Start processing image oblong (13).jpg for class oblong
+2026-06-11 16:37:03,712 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (364).jpg
+2026-06-11 16:37:03,721 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (364).jpg in class heart
+2026-06-11 16:37:03,730 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (364).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:37:03,740 - [INFO] - [MAIN]:  Start processing image heart (365).jpg for class heart
+2026-06-11 16:37:08,170 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (281).jpg for class round Successfully
+2026-06-11 16:37:08,202 - [INFO] - [MAIN]:  Start processing image round (295).jpg for class round
+2026-06-11 16:37:30,859 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (276).jpg for class oval Successfully
+2026-06-11 16:37:30,884 - [INFO] - [MAIN]:  Start processing image oval (277).jpg for class oval
+2026-06-11 16:37:31,263 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (13).jpg
+2026-06-11 16:37:31,288 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (13).jpg in class oblong
+2026-06-11 16:37:31,310 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (13).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:37:31,329 - [INFO] - [MAIN]:  Start processing image oblong (139).jpg for class oblong
+2026-06-11 16:37:31,728 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (365).jpg
+2026-06-11 16:37:31,747 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (365).jpg in class heart
+2026-06-11 16:37:31,760 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (365).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:37:31,780 - [INFO] - [MAIN]:  Start processing image heart (37).jpg for class heart
+2026-06-11 16:37:45,344 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (295).jpg for class round Successfully
+2026-06-11 16:37:45,373 - [INFO] - [MAIN]:  Start processing image round (299).jpg for class round
+2026-06-11 16:38:03,327 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (277).jpg for class oval Successfully
+2026-06-11 16:38:03,340 - [INFO] - [MAIN]:  Start processing image oval (278).jpg for class oval
+2026-06-11 16:38:03,622 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (139).jpg for class oblong Successfully
+2026-06-11 16:38:03,633 - [INFO] - [MAIN]:  Start processing image oblong (14).jpg for class oblong
+2026-06-11 16:38:03,781 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (37).jpg for class heart Successfully
+2026-06-11 16:38:03,800 - [INFO] - [MAIN]:  Start processing image heart (375).jpg for class heart
+2026-06-11 16:38:18,888 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (299).jpg for class round Successfully
+2026-06-11 16:38:18,916 - [INFO] - [MAIN]:  Start processing image round (3).jpg for class round
+2026-06-11 16:38:35,401 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (278).jpg for class oval Successfully
+2026-06-11 16:38:35,414 - [INFO] - [MAIN]:  Start processing image oval (279).jpg for class oval
+2026-06-11 16:38:35,437 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (14).jpg for class oblong Successfully
+2026-06-11 16:38:35,438 - [INFO] - [MAIN]:  Start processing image oblong (143).jpg for class oblong
+2026-06-11 16:38:35,657 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (375).jpg for class heart Successfully
+2026-06-11 16:38:35,676 - [INFO] - [MAIN]:  Start processing image heart (377).jpg for class heart
+2026-06-11 16:38:51,958 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (3).jpg for class round Successfully
+2026-06-11 16:38:51,988 - [INFO] - [MAIN]:  Start processing image round (313).jpg for class round
+2026-06-11 16:39:04,833 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (143).jpg
+2026-06-11 16:39:04,852 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (143).jpg in class oblong
+2026-06-11 16:39:04,872 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (143).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:39:04,891 - [INFO] - [MAIN]:  Start processing image oblong (144).jpg for class oblong
+2026-06-11 16:39:09,761 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (279).jpg for class oval Successfully
+2026-06-11 16:39:09,781 - [INFO] - [MAIN]:  Start processing image oval (280).jpg for class oval
+2026-06-11 16:39:10,059 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (377).jpg for class heart Successfully
+2026-06-11 16:39:10,085 - [INFO] - [MAIN]:  Start processing image heart (379).jpg for class heart
+2026-06-11 16:39:25,878 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (313).jpg for class round Successfully
+2026-06-11 16:39:25,903 - [INFO] - [MAIN]:  Start processing image round (330).jpg for class round
+2026-06-11 16:39:37,115 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (144).jpg for class oblong Successfully
+2026-06-11 16:39:37,130 - [INFO] - [MAIN]:  Start processing image oblong (146).jpg for class oblong
+2026-06-11 16:39:42,067 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (379).jpg for class heart Successfully
+2026-06-11 16:39:42,082 - [INFO] - [MAIN]:  Start processing image heart (381).jpg for class heart
+2026-06-11 16:39:42,136 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (280).jpg for class oval Successfully
+2026-06-11 16:39:42,156 - [INFO] - [MAIN]:  Start processing image oval (281).jpg for class oval
+2026-06-11 16:39:58,098 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (330).jpg for class round Successfully
+2026-06-11 16:39:58,124 - [INFO] - [MAIN]:  Start processing image round (349).jpg for class round
+2026-06-11 16:40:08,939 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (146).jpg for class oblong Successfully
+2026-06-11 16:40:08,971 - [INFO] - [MAIN]:  Start processing image oblong (147).jpg for class oblong
+2026-06-11 16:40:13,890 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (381).jpg for class heart Successfully
+2026-06-11 16:40:13,911 - [INFO] - [MAIN]:  Start processing image heart (39).jpg for class heart
+2026-06-11 16:40:14,074 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (281).jpg for class oval Successfully
+2026-06-11 16:40:14,085 - [INFO] - [MAIN]:  Start processing image oval (282).jpg for class oval
+2026-06-11 16:40:22,639 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (349).jpg
+2026-06-11 16:40:22,672 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (349).jpg in class round
+2026-06-11 16:40:22,704 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (349).jpg for class round: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:40:22,738 - [INFO] - [MAIN]:  Start processing image round (350).jpg for class round
+2026-06-11 16:40:42,331 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (147).jpg for class oblong Successfully
+2026-06-11 16:40:42,352 - [INFO] - [MAIN]:  Start processing image oblong (148).jpg for class oblong
+2026-06-11 16:40:43,401 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (39).jpg
+2026-06-11 16:40:43,421 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (39).jpg in class heart
+2026-06-11 16:40:43,450 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (39).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:40:43,478 - [INFO] - [MAIN]:  Start processing image heart (395).jpg for class heart
+2026-06-11 16:40:50,294 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (350).jpg
+2026-06-11 16:40:50,307 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (350).jpg in class round
+2026-06-11 16:40:50,322 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (350).jpg for class round: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:40:50,336 - [INFO] - [MAIN]:  Start processing image round (351).jpg for class round
+2026-06-11 16:40:50,681 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (282).jpg for class oval Successfully
+2026-06-11 16:40:50,699 - [INFO] - [MAIN]:  Start processing image oval (284).jpg for class oval
+2026-06-11 16:41:16,793 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (148).jpg for class oblong Successfully
+2026-06-11 16:41:16,813 - [INFO] - [MAIN]:  Start processing image oblong (149).jpg for class oblong
+2026-06-11 16:41:17,385 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (351).jpg
+2026-06-11 16:41:17,405 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (351).jpg in class round
+2026-06-11 16:41:17,425 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (351).jpg for class round: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:41:17,444 - [INFO] - [MAIN]:  Start processing image round (352).jpg for class round
+2026-06-11 16:41:17,598 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (395).jpg for class heart Successfully
+2026-06-11 16:41:17,617 - [INFO] - [MAIN]:  Start processing image heart (404).jpg for class heart
+2026-06-11 16:41:26,074 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (284).jpg for class oval Successfully
+2026-06-11 16:41:26,103 - [INFO] - [MAIN]:  Start processing image oval (285).jpg for class oval
+2026-06-11 16:41:46,514 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (352).jpg
+2026-06-11 16:41:46,534 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (352).jpg in class round
+2026-06-11 16:41:46,553 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (352).jpg for class round: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:41:46,575 - [INFO] - [MAIN]:  Start processing image round (353).jpg for class round
+2026-06-11 16:41:46,898 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (149).jpg
+2026-06-11 16:41:46,908 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (149).jpg in class oblong
+2026-06-11 16:41:46,917 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (149).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:41:46,926 - [INFO] - [MAIN]:  Start processing image oblong (15).jpg for class oblong
+2026-06-11 16:41:54,594 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (404).jpg for class heart Successfully
+2026-06-11 16:41:54,617 - [INFO] - [MAIN]:  Start processing image heart (413).jpg for class heart
+2026-06-11 16:41:55,258 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (285).jpg
+2026-06-11 16:41:55,289 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (285).jpg in class oval
+2026-06-11 16:41:55,320 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (285).jpg for class oval: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:41:55,350 - [INFO] - [MAIN]:  Start processing image oval (286).jpg for class oval
+2026-06-11 16:42:20,433 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (353).jpg for class round Successfully
+2026-06-11 16:42:20,442 - [INFO] - [MAIN]:  Start processing image round (354).jpg for class round
+2026-06-11 16:42:20,928 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (15).jpg for class oblong Successfully
+2026-06-11 16:42:20,944 - [INFO] - [MAIN]:  Start processing image oblong (150).jpg for class oblong
+2026-06-11 16:42:27,220 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (413).jpg for class heart Successfully
+2026-06-11 16:42:27,241 - [INFO] - [MAIN]:  Start processing image heart (414).jpg for class heart
+2026-06-11 16:42:27,928 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (286).jpg for class oval Successfully
+2026-06-11 16:42:27,963 - [INFO] - [MAIN]:  Start processing image oval (287).jpg for class oval
+2026-06-11 16:42:52,288 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (354).jpg for class round Successfully
+2026-06-11 16:42:52,312 - [INFO] - [MAIN]:  Start processing image round (355).jpg for class round
+2026-06-11 16:42:52,513 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (150).jpg for class oblong Successfully
+2026-06-11 16:42:52,513 - [INFO] - [MAIN]:  Start processing image oblong (152).jpg for class oblong
+2026-06-11 16:42:59,573 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (414).jpg for class heart Successfully
+2026-06-11 16:42:59,601 - [INFO] - [MAIN]:  Start processing image heart (415).jpg for class heart
+2026-06-11 16:43:00,260 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (287).jpg for class oval Successfully
+2026-06-11 16:43:00,290 - [INFO] - [MAIN]:  Start processing image oval (288).jpg for class oval
+2026-06-11 16:43:16,070 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (152).jpg
+2026-06-11 16:43:16,088 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (152).jpg in class oblong
+2026-06-11 16:43:16,089 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (152).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:43:16,089 - [INFO] - [MAIN]:  Start processing image oblong (154).jpg for class oblong
+2026-06-11 16:43:24,245 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (355).jpg for class round Successfully
+2026-06-11 16:43:24,291 - [INFO] - [MAIN]:  Start processing image round (356).jpg for class round
+2026-06-11 16:43:26,794 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (415).jpg
+2026-06-11 16:43:26,825 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (415).jpg in class heart
+2026-06-11 16:43:26,854 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (415).jpg for class heart: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:43:26,885 - [INFO] - [MAIN]:  Start processing image heart (416).jpg for class heart
+2026-06-11 16:43:38,994 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (288).jpg for class oval Successfully
+2026-06-11 16:43:38,996 - [INFO] - [MAIN]:  Start processing image oval (289).jpg for class oval
+2026-06-11 16:43:39,922 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (154).jpg for class oblong Successfully
+2026-06-11 16:43:39,948 - [INFO] - [MAIN]:  Start processing image oblong (155).jpg for class oblong
+2026-06-11 16:43:42,857 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (356).jpg for class round Successfully
+2026-06-11 16:43:42,895 - [INFO] - [MAIN]:  Start processing image round (357).jpg for class round
+2026-06-11 16:43:45,194 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (416).jpg for class heart Successfully
+2026-06-11 16:43:45,222 - [INFO] - [MAIN]:  Start processing image heart (417).jpg for class heart
+2026-06-11 16:44:08,128 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (289).jpg for class oval Successfully
+2026-06-11 16:44:08,199 - [INFO] - [MAIN]:  Start processing image oval (290).jpg for class oval
+2026-06-11 16:44:14,882 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (155).jpg for class oblong Successfully
+2026-06-11 16:44:14,893 - [INFO] - [MAIN]:  Start processing image oblong (156).jpg for class oblong
+2026-06-11 16:44:31,642 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (417).jpg for class heart Successfully
+2026-06-11 16:44:31,647 - [INFO] - [MAIN]:  Start processing image heart (418).jpg for class heart
+2026-06-11 16:44:31,647 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\round (357).jpg for class round Successfully
+2026-06-11 16:44:31,650 - [INFO] - [MAIN]:  Start processing image round (358).jpg for class round
+2026-06-11 16:44:39,153 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (156).jpg
+2026-06-11 16:44:39,165 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (156).jpg in class oblong
+2026-06-11 16:44:39,269 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (156).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:44:39,280 - [INFO] - [MAIN]:  Start processing image oblong (158).jpg for class oblong
+2026-06-11 16:44:46,493 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\oval (290).jpg for class oval Successfully
+2026-06-11 16:44:46,560 - [INFO] - [MAIN]:  Start processing image oval (291).jpg for class oval
+2026-06-11 16:45:07,720 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\heart (418).jpg for class heart Successfully
+2026-06-11 16:45:07,722 - [INFO] - [MAIN]:  Start processing image heart (419).jpg for class heart
+2026-06-11 16:45:07,949 - [WARNING] - [EXTRACT FACE]:No face detected in D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (158).jpg
+2026-06-11 16:45:07,951 - [WARNING] - [MAIN]: fallback to original image for dlib processing for D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (158).jpg in class oblong
+2026-06-11 16:45:07,952 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (158).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2026-06-11 16:45:07,953 - [INFO] - [MAIN]:  Start processing image oblong (181).jpg for class oblong
