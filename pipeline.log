@@ -3552,3 +3552,38 @@ lly
 2026-06-11 16:45:07,952 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\oblong (158).jpg for class oblong: OpenCV(4.13.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
 
 2026-06-11 16:45:07,953 - [INFO] - [MAIN]:  Start processing image oblong (181).jpg for class oblong
+2026-06-11 17:22:24,345 - [INFO] - [MAIN]:Using shape predictor: D:\Thoriq\Work\MadeByHumans\Research Face Shape\models\shape_predictor_68_face_landmarks.dat
+2026-06-11 17:22:24,346 - [INFO] - [MAIN]:Processing Dataset: test_set
+2026-06-11 17:22:36,379 - [INFO] - [MAIN]:  Processing Class: heart
+2026-06-11 17:22:36,386 - [INFO] - [MAIN]:  Start processing image 20171114093918190825.jpg for class heart
+2026-06-11 17:22:36,414 - [INFO] - [MAIN]:  Processing Class: oblong
+2026-06-11 17:22:36,423 - [INFO] - [MAIN]:  Start processing image 01.30661168.1.jpg for class oblong
+2026-06-11 17:22:36,485 - [INFO] - [MAIN]:  Processing Class: oval
+2026-06-11 17:22:36,493 - [INFO] - [MAIN]:  Start processing image 00502143_20180527.jpg for class oval
+2026-06-11 17:22:36,571 - [INFO] - [MAIN]:  Processing Class: round
+2026-06-11 17:22:36,578 - [INFO] - [MAIN]:  Start processing image 2016031400060_0.jpg for class round
+2026-06-11 17:22:58,021 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\2016031400060_0.jpg for class round Successfully
+2026-06-11 17:22:58,021 - [INFO] - [MAIN]:  Start processing image 20160806190839947kdat.jpg for class round
+2026-06-11 17:22:58,022 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\00502143_20180527.jpg for class oval Successfully
+2026-06-11 17:22:58,026 - [INFO] - [MAIN]:  Start processing image 104203_127191_844.jpg for class oval
+2026-06-11 17:22:58,117 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\01.30661168.1.jpg for class oblong Successfully
+2026-06-11 17:22:58,118 - [INFO] - [MAIN]:  Start processing image 03.30681207.1.jpg for class oblong
+2026-06-11 17:22:58,288 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\20171114093918190825.jpg for class heart Successfully
+2026-06-11 17:22:58,443 - [INFO] - [MAIN]:  Start processing image 201803221196344281_1.jpg for class heart
+2026-06-11 17:23:13,303 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\03.30681207.1.jpg for class oblong Successfully
+2026-06-11 17:23:13,304 - [INFO] - [MAIN]:  Start processing image 1-_EC_9D_B4_EC_9E_AC_EC_9A_B1.jpg for class oblong
+2026-06-11 17:23:13,339 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\20160806190839947kdat.jpg for class round Successfully
+2026-06-11 17:23:13,339 - [INFO] - [MAIN]:  Start processing image 201608221495266516_1.jpg for class round
+2026-06-11 17:23:13,359 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\104203_127191_844.jpg for class oval Successfully
+2026-06-11 17:23:13,360 - [INFO] - [MAIN]:  Start processing image 119342471.9.jpg for class oval
+2026-06-11 17:23:13,472 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\201803221196344281_1.jpg for class heart Successfully
+2026-06-11 17:23:13,568 - [INFO] - [MAIN]:  Start processing image 202001301345427874834_20200130141114_01.jpg for class heart
+2026-06-11 17:23:28,730 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oval\119342471.9.jpg for class oval Successfully
+2026-06-11 17:23:28,731 - [INFO] - [MAIN]:  Start processing image 19062548_YJW_0241.jpg for class oval
+2026-06-11 17:23:28,753 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\round\201608221495266516_1.jpg for class round Successfully
+2026-06-11 17:23:28,753 - [INFO] - [MAIN]:  Start processing image 201611151902470510_2.jpg for class round
+2026-06-11 17:23:28,782 - [INFO] - [MAIN]:  Processed D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\heart\202001301345427874834_20200130141114_01.jpg for class heart Successfully
+2026-06-11 17:23:28,783 - [INFO] - [MAIN]:  Start processing image 202007020944329082_d.jpg for class heart
+2026-06-11 17:23:28,815 - [ERROR] - [MAIN]:  Error processing probe image D:\Thoriq\Work\MadeByHumans\Research Face Shape\all_dataset\face-shape-new\test_set\oblong\1-_EC_9D_B4_EC_9E_AC_EC_9A_B1.jpg for class oblong: Tidak menemukan forehead width line yang valid
+2026-06-11 17:23:28,816 - [INFO] - [MAIN]:  Start processing image 105748_144393_1695228325.jpg for class oblong
+2026-06-11 17:23:46,139 - [INFO] - [MAIN]:  Processing Class: square

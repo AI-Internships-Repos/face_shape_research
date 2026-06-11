@@ -197,11 +197,11 @@ class DatasetPreprocessor:
 
     def _extract_face(self, image_file):
         faces = RetinaFace.extract_faces(img_path=str(image_file), align=True, expand_face_area=45)
-        if faces:
-            return cv2.cvtColor(faces[0], cv2.COLOR_BGR2RGB)
+        if not faces:
+            logger.warning(f"[EXTRACT FACE]:No face detected in {image_file}")
+            return None
 
-        logger.warning(f"[EXTRACT FACE]:No face detected in {image_file}")
-        return None
+        return cv2.cvtColor(faces[0], cv2.COLOR_BGR2RGB)
 
     def _process_dlib_landmarks(self, image_cv2):
         gray = cv2.cvtColor(image_cv2, cv2.COLOR_BGR2GRAY)
@@ -233,7 +233,7 @@ class DatasetPreprocessor:
         probe_face = self._extract_face(image_file)
         if probe_face is None:
             logger.warning(f"[MAIN]: fallback to original image for dlib processing for {image_file} in class {class_name}")
-
+            probe_face = cv2.cvtColor(cv2.imread(str(image_file)), cv2.COLOR_BGR2RGB)
         probe_landmarks = self._process_dlib_landmarks(probe_face)
         if probe_landmarks is None:
             raise ValueError(f"[MAIN]:  No landmarks detected in probe image {image_file} for class {class_name}. Skipping class.")
